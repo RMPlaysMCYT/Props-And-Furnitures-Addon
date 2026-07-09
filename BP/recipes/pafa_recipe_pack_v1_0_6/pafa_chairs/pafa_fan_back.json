@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:pafa_fan_back"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "pafa:crate"
+      }
+    ],
+    "result": [
+      {
+        "item": "pafa:pafa_fan_back",
+        "count": 1
+      }
+    ]
+  }
+}

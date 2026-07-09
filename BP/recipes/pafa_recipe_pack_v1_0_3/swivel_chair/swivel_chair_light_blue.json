@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:swivel_chair_light_blue"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "pafa:crate"
+      }
+    ],
+    "result": [
+      {
+        "item": "pafa:swivel_chair_light_blue",
+        "count": 1
+      }
+    ]
+  }
+}

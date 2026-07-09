@@ -1,0 +1,112 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:plastic_table_red",
+			"properties": {
+				"pafa:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:geometry": "geometry.pafa_plastic_table",
+			"minecraft:loot": "loot_tables/v_1_0_2/plastic_table_red.json",
+			"minecraft:entity_collision": {
+				"origin": [
+					0,
+					0,
+					0
+				],
+				"size": [
+					16,
+					15,
+					16
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					0,
+					0,
+					0
+				],
+				"size": [
+					16,
+					15,
+					16
+				]
+			},
+			"minecraft:on_player_placing": {
+				"event": "pafa:facing"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_plastic_table_red",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:creative_category": {
+				"category": "Construction",
+				"group": "itemGroup.name.Construction"
+			}
+		},
+		"events": {
+			"pafa:facing": {
+				"set_block_property": {
+					"pafa:facing": "query.cardinal_facing_2d"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('pafa:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			}
+		]
+	}
+}

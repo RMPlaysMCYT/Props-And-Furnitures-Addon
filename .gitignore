@@ -1,0 +1,11 @@
+Desktop.ini    
+.DS_Store 
+!.bridge/
+.bridge/*
+/.bridge
+!.bridge/compiler/
+!.bridge/extensions
+/builds
+builds
+.regolith/*
+.AddCompLib

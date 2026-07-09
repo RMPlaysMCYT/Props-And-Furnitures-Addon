@@ -1,0 +1,60 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"component_groups": {
+			"deactivated": {
+				"minecraft:transformation": {
+					"into": "pafa:electric_fan"
+				}
+			},
+			"okay": {
+				"minecraft:is_tamed": {}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 4
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 2
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Deactivate",
+						"use_item": false,
+						"on_interact": {
+							"event": "rmplaysmcyt:deactivated"
+						}
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"okay"
+					]
+				}
+			},
+			"rmplaysmcyt:deactivated": {
+				"add": {
+					"component_groups": [
+						"deactivated"
+					]
+				}
+			}
+		},
+		"description": {
+			"identifier": "pafa:electric_fan_on",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		}
+	}
+}

@@ -1,0 +1,1408 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"pafa_table": {
+			"textures": "textures/blocks/table"
+		},
+		"pafa_large_table": {
+			"textures": "textures/blocks/large_table"
+		},
+		"pafa_chair": {
+			"textures": [
+				"textures/blocks/chair_1"
+			]
+		},
+		"pafa_oven": {
+			"textures": "textures/blocks/oven"
+		},
+		"pafa_cabinet": {
+			"textures": "textures/blocks/cabinet"
+		},
+		"pafa_chair_2": {
+			"textures": "textures/blocks/chair_2"
+		},
+		"pafa_chair_3": {
+			"textures": "textures/blocks/chair_3"
+		},
+		"pafa_chair_4": {
+			"textures": "textures/blocks/chair_4"
+		},
+		"pafa_lamp_2": {
+			"textures": "textures/blocks/lamp_2"
+		},
+		"pafa_lamp_1": {
+			"textures": "textures/blocks/lamp_1"
+		},
+		"pafa_gift": {
+			"textures": "textures/blocks/gift"
+		},
+		"pafa_gift_blue": {
+			"textures": "textures/blocks/gift_blue"
+		},
+		"pafa_gift_green": {
+			"textures": "textures/blocks/gift_green"
+		},
+		"pafa_gift_pink": {
+			"textures": "textures/blocks/gift_pink"
+		},
+		"pafa_gift_orange": {
+			"textures": "textures/blocks/gift_orange"
+		},
+		"pafa_grocery_stand": {
+			"textures": "textures/blocks/grocery_stand"
+		},
+		"pafa_cabinet_2": {
+			"textures": "textures/blocks/cabinet_2"
+		},
+		"pafa_pos_machine": {
+			"textures": "textures/blocks/pos_machine"
+		},
+		"pafa_television_0": {
+			"textures": [
+				"textures/blocks/television_0/television_0"
+			]
+		},
+		"pafa_chair_0": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_black"
+			]
+		},
+		"pafa_chair_1": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_white"
+			]
+		},
+		"pafa_chair_1_blue": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_blue"
+			]
+		},
+		"pafa_chair_1_brown": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_brown"
+			]
+		},
+		"pafa_chair_1_cyan": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_cyan"
+			]
+		},
+		"pafa_chair_1_gray": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_gray"
+			]
+		},
+		"pafa_chair_1_green": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_green"
+			]
+		},
+		"pafa_chair_1_light_blue": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_light_blue"
+			]
+		},
+		"pafa_chair_1_lime": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_lime"
+			]
+		},
+		"pafa_chair_1_orange": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_orange"
+			]
+		},
+		"pafa_chair_1_pink": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_pink"
+			]
+		},
+		"pafa_chair_1_purple": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_purple"
+			]
+		},
+		"pafa_chair_1_red": {
+			"textures": [
+				"textures/blocks/chair_1/chair_1_red"
+			]
+		},
+		"pafa_chair_1_silver": {
+			"textures": "textures/blocks/chair_1/chair_1_silver"
+		},
+		"pafa_chair_1_yellow": {
+			"textures": "textures/blocks/chair_1/chair_1_yellow"
+		},
+		"pafa_chair_1_magenta": {
+			"textures": "textures/blocks/chair_1/chair_1_magenta"
+		},
+		"pafa_chair_2_black": {
+			"textures": "textures/blocks/chair_2/chair_2_black"
+		},
+		"pafa_chair_2_white": {
+			"textures": "textures/blocks/chair_2/chair_2_white"
+		},
+		"pafa_chair_2_blue": {
+			"textures": "textures/blocks/chair_2/chair_2_blue"
+		},
+		"pafa_chair_2_brown": {
+			"textures": "textures/blocks/chair_2/chair_2_brown"
+		},
+		"pafa_chair_2_cyan": {
+			"textures": "textures/blocks/chair_2/chair_2_cyan"
+		},
+		"pafa_chair_2_gray": {
+			"textures": "textures/blocks/chair_2/chair_2_gray"
+		},
+		"pafa_chair_2_green": {
+			"textures": "textures/blocks/chair_2/chair_2_green"
+		},
+		"pafa_chair_2_light_blue": {
+			"textures": "textures/blocks/chair_2/chair_2_light_blue"
+		},
+		"pafa_chair_2_lime": {
+			"textures": "textures/blocks/chair_2/chair_2_lime"
+		},
+		"pafa_chair_2_orange": {
+			"textures": "textures/blocks/chair_2/chair_2_orange"
+		},
+		"pafa_chair_2_pink": {
+			"textures": "textures/blocks/chair_2/chair_2_pink"
+		},
+		"pafa_chair_2_purple": {
+			"textures": "textures/blocks/chair_2/chair_2_purple"
+		},
+		"pafa_chair_2_red": {
+			"textures": "textures/blocks/chair_2/chair_2_red"
+		},
+		"pafa_chair_2_silver": {
+			"textures": "textures/blocks/chair_2/chair_2_silver"
+		},
+		"pafa_chair_2_yellow": {
+			"textures": "textures/blocks/chair_2/chair_2_yellow"
+		},
+		"pafa_chair_2_magenta": {
+			"textures": "textures/blocks/chair_2/chair_2_magenta"
+		},
+		"pafa_cabinet_3_black": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_black"
+		},
+		"pafa_cabinet_3_white": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_white"
+		},
+		"pafa_cabinet_3_blue": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_blue"
+		},
+		"pafa_cabinet_3_brown": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_brown"
+		},
+		"pafa_cabinet_3_cyan": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_cyan"
+		},
+		"pafa_cabinet_3_gray": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_gray"
+		},
+		"pafa_cabinet_3_green": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_green"
+		},
+		"pafa_cabinet_3_light_blue": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_light_blue"
+		},
+		"pafa_cabinet_3_lime": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_lime"
+		},
+		"pafa_cabinet_3_orange": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_orange"
+		},
+		"pafa_cabinet_3_pink": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_pink"
+		},
+		"pafa_cabinet_3_purple": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_purple"
+		},
+		"pafa_cabinet_3_red": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_red"
+		},
+		"pafa_cabinet_3_silver": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_silver"
+		},
+		"pafa_cabinet_3_yellow": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_yellow"
+		},
+		"pafa_cabinet_3_magenta": {
+			"textures": "textures/blocks/cabinet_3/cabinet_3_magenta"
+		},
+		"pafa_classroom_chair_1": {
+			"textures": "textures/blocks/classroom_chair_1/classroom_chair_1"
+		},
+		"pafa_television_1": {
+			"textures": "textures/blocks/television_1/television_1"
+		},
+		"pafa_sink_1": {
+			"textures": "textures/blocks/sink_1/sink_1"
+		},
+		"pafa_drawer": {
+			"textures": "textures/blocks/drawer/drawer"
+		},
+		"pafa_drawer_2": {
+			"textures": "textures/blocks/drawer/drawer_2"
+		},
+		"pafa_stall": {
+			"textures": "textures/blocks/stall/stall"
+		},
+		"pafa_lamp_3": {
+			"textures": "textures/blocks/lamp_3/1/lamp_1_on"
+		},
+		"pafa_large_table_1": {
+			"textures": "textures/blocks/large_table_2"
+		},
+		"pafa_stall2": {
+			"textures": "textures/blocks/stall/stall2"
+		},
+		"pafa_glass_window_black": {
+			"textures": "textures/blocks/glass_window/glass_window_black"
+		},
+		"pafa_glass_window_white": {
+			"textures": "textures/blocks/glass_window/glass_window_white"
+		},
+		"pafa_glass_window_orange": {
+			"textures": "textures/blocks/glass_window/glass_window_orange"
+		},
+		"pafa_glass_window_magenta": {
+			"textures": "textures/blocks/glass_window/glass_window_magenta"
+		},
+		"pafa_glass_window_cyan": {
+			"textures": "textures/blocks/glass_window/glass_window_cyan"
+		},
+		"pafa_glass_window_brown": {
+			"textures": "textures/blocks/glass_window/glass_window_brown"
+		},
+		"pafa_glass_window_gray": {
+			"textures": "textures/blocks/glass_window/glass_window_gray"
+		},
+		"pafa_glass_window_green": {
+			"textures": "textures/blocks/glass_window/glass_window_green"
+		},
+		"pafa_glass_window_lime": {
+			"textures": "textures/blocks/glass_window/glass_window_lime"
+		},
+		"pafa_glass_window_light_blue": {
+			"textures": "textures/blocks/glass_window/glass_window_light_blue"
+		},
+		"pafa_glass_window_pink": {
+			"textures": "textures/blocks/glass_window/glass_window_pink"
+		},
+		"pafa_glass_window_red": {
+			"textures": "textures/blocks/glass_window/glass_window_red"
+		},
+		"pafa_glass_window_silver": {
+			"textures": "textures/blocks/glass_window/glass_window_silver"
+		},
+		"pafa_glass_window_purple": {
+			"textures": "textures/blocks/glass_window/glass_window_purple"
+		},
+		"pafa_glass_window_yellow": {
+			"textures": "textures/blocks/glass_window/glass_window_yellow"
+		},
+		"pafa_glass_window_blue": {
+			"textures": "textures/blocks/glass_window/glass_window_blue"
+		},
+		"pafa_microphone": {
+			"textures": "textures/blocks/microphone"
+		},
+		"pafa_printer_1": {
+			"textures": "textures/blocks/printer_1"
+		},
+		"pafa_printer_2": {
+			"textures": "textures/blocks/printer_2"
+		},
+		"pafa_computer_1_0": {
+			"textures": [
+				"textures/blocks/computers/computer_1"
+			]
+		},
+		"pafa_computer_1_1": {
+			"textures": [
+				"textures/blocks/computers/computer_1/computer_1_0"
+			]
+		},
+		"pafa_computer_1_2": {
+			"textures": [
+				{
+					"path": "textures/blocks/computers/computer_1/computer_1_1"
+				}
+			]
+		},
+		"pafa_large_table_2": {
+			"textures": [
+				"textures/blocks/large_table_2/large_table_2"
+			]
+		},
+		"pafa_large_table_2_1": {
+			"textures": [
+				"textures/blocks/large_table_2/large_table_2_1"
+			]
+		},
+		"pafa_large_table_2_2": {
+			"textures": [
+				"textures/blocks/large_table_2/large_table_2_2"
+			]
+		},
+		"pafa_large_table_2_3": {
+			"textures": [
+				"textures/blocks/large_table_2/large_table_2_3"
+			]
+		},
+		"pafa_large_table_2_4": {
+			"textures": [
+				"textures/blocks/large_table_2/large_table_2_4"
+			]
+		},
+		"pafa_pc_1": {
+			"textures": "textures/blocks/pafa_pc_1"
+		},
+		"pafa_pc_1_0": {
+			"textures": [
+				"textures/blocks/pc_1/pc_1_0"
+			]
+		},
+		"pafa_pc_1_1": {
+			"textures": [
+				"textures/blocks/pc_1/pc_1_1"
+			]
+		},
+		"pafa_sofa_1": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa"
+			]
+		},
+		"pafa_sofa_1_white": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_white"
+			]
+		},
+		"pafa_sofa_1_blue": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_blue"
+			]
+		},
+		"pafa_sofa_1_brown": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_brown"
+			]
+		},
+		"pafa_sofa_1_cyan": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_cyan"
+			]
+		},
+		"pafa_sofa_1_gray": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_gray"
+			]
+		},
+		"pafa_sofa_1_green": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_green"
+			]
+		},
+		"pafa_sofa_1_light_blue": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_light_blue"
+			]
+		},
+		"pafa_sofa_1_lime": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_lime"
+			]
+		},
+		"pafa_sofa_1_magenta": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_magenta"
+			]
+		},
+		"pafa_sofa_1_orange": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_orange"
+			]
+		},
+		"pafa_sofa_1_pink": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_pink"
+			]
+		},
+		"pafa_sofa_1_purple": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_purple"
+			]
+		},
+		"pafa_sofa_1_red": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_red"
+			]
+		},
+		"pafa_sofa_1_silver": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_silver"
+			]
+		},
+		"pafa_sofa_1_yellow": {
+			"textures": [
+				"textures/blocks/sofa/pafa_sofa_yellow"
+			]
+		},
+		"pafa_fence_1": {
+			"textures": "textures/blocks/fence_1"
+		},
+		"pafa_table_v2_oak": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_oak"
+		},
+		"pafa_table_v2_acacia": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_acacia"
+		},
+		"pafa_table_v2_birch": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_birch"
+		},
+		"pafa_table_v2_crimson": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_crimson"
+		},
+		"pafa_table_v2_dark_oak": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_dark_oak"
+		},
+		"pafa_table_v2_jungle": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_jungle"
+		},
+		"pafa_table_v2_spruce": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_spruce"
+		},
+		"pafa_table_v2_warped": {
+			"textures": "textures/blocks/pafa_table_v2/pafa_table_v2_warped"
+		},
+		"pafa_block_syta": {
+			"textures": "textures/blocks/block_syta"
+		},
+		"pafa_block_pokeball": {
+			"textures": "textures/blocks/block_pokeball"
+		},
+		"pafa_boracay": {
+			"textures": "textures/blocks/block_boracay_1"
+		},
+		"pafa_boracay_up": {
+			"textures": "textures/blocks/block_boracay"
+		},
+		"pafa_boracay_middle": {
+			"textures": "textures/blocks/block_boracay"
+		},
+		"pafa_boracay_down": {
+			"textures": "textures/blocks/block_boracay"
+		},
+		"pafa_boracay_top": {
+			"textures": "textures/blocks/block_boracay"
+		},
+		"pafa_boracay_bottom": {
+			"textures": "textures/blocks/block_boracay_1"
+		},
+		"pafa_dish_rack_black": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_black"
+		},
+		"pafa_dish_rack_blue": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_blue"
+		},
+		"pafa_dish_rack_brown": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_brown"
+		},
+		"pafa_dish_rack_cyan": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_cyan"
+		},
+		"pafa_dish_rack_gray": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_gray"
+		},
+		"pafa_dish_rack_green": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_green"
+		},
+		"pafa_dish_rack_light_blue": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_light_blue"
+		},
+		"pafa_dish_rack_lime": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_lime"
+		},
+		"pafa_dish_rack_magenta": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_magenta"
+		},
+		"pafa_dish_rack_orange": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_orange"
+		},
+		"pafa_dish_rack_pink": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_pink"
+		},
+		"pafa_dish_rack_purple": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_purple"
+		},
+		"pafa_dish_rack_red": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_red"
+		},
+		"pafa_dish_rack_silver": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_silver"
+		},
+		"pafa_dish_rack_white": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_white"
+		},
+		"pafa_dish_rack_yellow": {
+			"textures": "textures/blocks/pafa_dish_rack/pafa_dish_rack_yellow"
+		},
+		"pafa_shoe_rack": {
+			"textures": "textures/blocks/shoe_rack/shoe_rack"
+		},
+		"pafa_plastic_table_black": {
+			"textures": "textures/blocks/plastic_table/plastic_table_black"
+		},
+		"pafa_plastic_table_white": {
+			"textures": "textures/blocks/plastic_table/plastic_table_white"
+		},
+		"pafa_plastic_table_red": {
+			"textures": "textures/blocks/plastic_table/plastic_table_red"
+		},
+		"pafa_plastic_table_green": {
+			"textures": "textures/blocks/plastic_table/plastic_table_green"
+		},
+		"pafa_plastic_table_blue": {
+			"textures": "textures/blocks/plastic_table/plastic_table_blue"
+		},
+		"pafa_pafa_monobloc_chair": {
+			"textures": [
+				"textures/blocks/pafa_pafa_monobloc_chair"
+			]
+		},
+		"pafa_pafa_monobloc_chair3": {
+			"textures": [
+				"textures/blocks/pafa_pafa_monobloc_chair3"
+			]
+		},
+		"pafa_pafa_monobloc_chair2": {
+			"textures": [
+				"textures/blocks/pafa_pafa_monobloc_chair2"
+			]
+		},
+		"pafa_barrel1": {
+			"textures": [
+				"textures/blocks/pafa_barrel1"
+			]
+		},
+		"pafa_barrel2": {
+			"textures": [
+				"textures/blocks/pafa_barrel2"
+			]
+		},
+		"pafa_piso_wifi_vending_machine": {
+			"textures": [
+				"textures/blocks/pafa_piso_wifi_vending_machine"
+			]
+		},
+		"pafa_barrel3": {
+			"textures": [
+				"textures/blocks/pafa_barrel3"
+			]
+		},
+		"pafa_portable_speaker": {
+			"textures": [
+				"textures/blocks/pafa_portable_speaker"
+			]
+		},
+		"pafa_barrel4": {
+			"textures": [
+				"textures/blocks/pafa_barrel4"
+			]
+		},
+		"pafa_flowerpot1": {
+			"textures": [
+				"textures/blocks/pafa_flowerpot1"
+			]
+		},
+		"pafa_flowerpot2": {
+			"textures": [
+				"textures/blocks/pafa_flowerpot2"
+			]
+		},
+		"pafa_comfy_table2": {
+			"textures": [
+				"textures/blocks/pafa_comfy_table2"
+			]
+		},
+		"pafa_comfy_table1": {
+			"textures": [
+				"textures/blocks/pafa_comfy_table1"
+			]
+		},
+		"pafa_television_2": {
+			"textures": "textures/blocks/pafa_telly_1"
+		},
+		"pafa_tablet_1": {
+			"textures": "textures/blocks/pafa_tablet_1"
+		},
+		"pafa_pc_2": {
+			"textures": "textures/blocks/pc_1/pc_1"
+		},
+		"pafa_ps1_console": {
+			"textures": "textures/blocks/ps1_console"
+		},
+		"pafa_ps2_console": {
+			"textures": "textures/blocks/ps2_console"
+		},
+		"pafa_ps3_console": {
+			"textures": "textures/blocks/ps3_console"
+		},
+		"pafa_ps4_slim_console": {
+			"textures": "textures/blocks/ps4_slim_console"
+		},
+		"pafa_ps4_pro_console": {
+			"textures": "textures/blocks/ps4_pro_console"
+		},
+		"pafa_plushies1": {
+			"textures": "textures/blocks/aesthetic/plushies/plushies1"
+		},
+		"pafa_plushies2": {
+			"textures": "textures/blocks/aesthetic/plushies/plushies2"
+		},
+		"pafa_plushies3": {
+			"textures": "textures/blocks/aesthetic/plushies/plushies3"
+		},
+		"pafa_aesthetic_table1": {
+			"textures": "textures/blocks/aesthetic/tables/aesthetic_table1"
+		},
+		"pafa_aesthetic_table2": {
+			"textures": "textures/blocks/aesthetic/tables/aesthetic_table2"
+		},
+		"pafa_aesthetic_table2_1": {
+			"textures": "textures/blocks/aesthetic/tables/aesthetic_table2_1"
+		},
+		"pafa_aesthetic_table3": {
+			"textures": "textures/blocks/aesthetic/tables/aesthetic_table3"
+		},
+		"wall1A": {
+			"textures": "textures/blocks/wall_1/wall_1A"
+		},
+		"wall1B": {
+			"textures": "textures/blocks/wall_1/wall_1B"
+		},
+		"wall1C": {
+			"textures": "textures/blocks/wall_1/wall_1C"
+		},
+		"wall2A": {
+			"textures": "textures/blocks/wall_2/wall2A"
+		},
+		"wall2B": {
+			"textures": "textures/blocks/wall_2/wall2B"
+		},
+		"wall2C": {
+			"textures": "textures/blocks/wall_2/wall2C"
+		},
+		"wall3A": {
+			"textures": "textures/blocks/wall_3/wall3A"
+		},
+		"wall3B": {
+			"textures": "textures/blocks/wall_3/wall3B"
+		},
+		"wall3C": {
+			"textures": "textures/blocks/wall_3/wall3C"
+		},
+		"wall3D": {
+			"textures": "textures/blocks/wall_3/wall3D"
+		},
+		"wall3E": {
+			"textures": "textures/blocks/wall_3/wall3E"
+		},
+		"bath_tub1": {
+			"textures": "textures/blocks/bath_tub/1/bath_tub1"
+		},
+		"bath_tub1water": {
+			"textures": "textures/blocks/bath_tub/1/bath_tub1_water"
+		},
+		"crate_block": {
+			"textures": "textures/blocks/crate"
+		},
+		"fridge2": {
+			"textures": "textures/blocks/fridge2"
+		},
+		"n_nes": {
+			"textures": "textures/blocks/ntnd/nes"
+		},
+		"n_snes": {
+			"textures": "textures/blocks/ntnd/snes"
+		},
+		"pafa_table_tennis0": {
+			"textures": "textures/blocks/table_tennis/v1/table_tennis1"
+		},
+		"pafa_table_tennis1": {
+			"textures": "textures/blocks/table_tennis/v1/table_tennis2"
+		},
+		"pafa_office_chair": {
+			"textures": "textures/blocks/office_chair"
+		},
+		"pafa_serenity_table0": {
+			"textures": "textures/blocks/serenity_table"
+		},
+		"pafa_serenity_table1": {
+			"textures": "textures/blocks/serenity_table/serenity_table_white"
+		},
+		"chair_5_black": {
+			"textures": "textures/blocks/chair_5/chair_5_black"
+		},
+		"chair_5_blue": {
+			"textures": "textures/blocks/chair_5/chair_5_blue"
+		},
+		"chair_5_brown": {
+			"textures": "textures/blocks/chair_5/chair_5_brown"
+		},
+		"chair_5_cyan": {
+			"textures": "textures/blocks/chair_5/chair_5_cyan"
+		},
+		"chair_5_gray": {
+			"textures": "textures/blocks/chair_5/chair_5_gray"
+		},
+		"chair_5_green": {
+			"textures": "textures/blocks/chair_5/chair_5_green"
+		},
+		"chair_5_light_blue": {
+			"textures": "textures/blocks/chair_5/chair_5_light_blue"
+		},
+		"chair_5_light_gray": {
+			"textures": "textures/blocks/chair_5/chair_5_light_gray"
+		},
+		"chair_5_lime": {
+			"textures": "textures/blocks/chair_5/chair_5_lime"
+		},
+		"chair_5_magenta": {
+			"textures": "textures/blocks/chair_5/chair_5_magenta"
+		},
+		"chair_5_orange": {
+			"textures": "textures/blocks/chair_5/chair_5_orange"
+		},
+		"chair_5_pink": {
+			"textures": "textures/blocks/chair_5/chair_5_pink"
+		},
+		"chair_5_purple": {
+			"textures": "textures/blocks/chair_5/chair_5_purple"
+		},
+		"chair_5_red": {
+			"textures": "textures/blocks/chair_5/chair_5_red"
+		},
+		"chair_5_white": {
+			"textures": "textures/blocks/chair_5/chair_5_white"
+		},
+		"chair_5_yellow": {
+			"textures": "textures/blocks/chair_5/chair_5_yellow"
+		},
+		"chair_6_black": {
+			"textures": "textures/blocks/chair_6/chair_6_black"
+		},
+		"chair_6_blue": {
+			"textures": "textures/blocks/chair_6/chair_6_blue"
+		},
+		"chair_6_brown": {
+			"textures": "textures/blocks/chair_6/chair_6_brown"
+		},
+		"chair_6_cyan": {
+			"textures": "textures/blocks/chair_6/chair_6_cyan"
+		},
+		"chair_6_gray": {
+			"textures": "textures/blocks/chair_6/chair_6_gray"
+		},
+		"chair_6_green": {
+			"textures": "textures/blocks/chair_6/chair_6_green"
+		},
+		"chair_6_light_blue": {
+			"textures": "textures/blocks/chair_6/chair_6_light_blue"
+		},
+		"chair_6_light_gray": {
+			"textures": "textures/blocks/chair_6/chair_6_light_gray"
+		},
+		"chair_6_lime": {
+			"textures": "textures/blocks/chair_6/chair_6_lime"
+		},
+		"chair_6_magenta": {
+			"textures": "textures/blocks/chair_6/chair_6_magenta"
+		},
+		"chair_6_orange": {
+			"textures": "textures/blocks/chair_6/chair_6_orange"
+		},
+		"chair_6_pink": {
+			"textures": "textures/blocks/chair_6/chair_6_pink"
+		},
+		"chair_6_purple": {
+			"textures": "textures/blocks/chair_6/chair_6_purple"
+		},
+		"chair_6_red": {
+			"textures": "textures/blocks/chair_6/chair_6_red"
+		},
+		"chair_6_white": {
+			"textures": "textures/blocks/chair_6/chair_6_white"
+		},
+		"chair_6_yellow": {
+			"textures": "textures/blocks/chair_6/chair_6_yellow"
+		},
+		"training_table": {
+			"textures": "textures/blocks/training_table"
+		},
+		"lounge_chair": {
+			"textures": "textures/blocks/lounge_chair"
+		},
+		"swivel_chair_black": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_black"
+		},
+		"swivel_chair_blue": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_blue"
+		},
+		"swivel_chair_brown": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_brown"
+		},
+		"swivel_chair_cyan": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_cyan"
+		},
+		"swivel_chair_gray": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_gray"
+		},
+		"swivel_chair_green": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_green"
+		},
+		"swivel_chair_light_blue": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_light_blue"
+		},
+		"swivel_chair_light_gray": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_light_gray"
+		},
+		"swivel_chair_lime": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_lime"
+		},
+		"swivel_chair_magenta": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_magenta"
+		},
+		"swivel_chair_orange": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_orange"
+		},
+		"swivel_chair_pink": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_pink"
+		},
+		"swivel_chair_purple": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_purple"
+		},
+		"swivel_chair_red": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_red"
+		},
+		"swivel_chair_white": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_white"
+		},
+		"swivel_chair_yellow": {
+			"textures": "textures/entity/swivel_chair/swivel_chair_yellow"
+		},
+		"pafa_chandelier_1": {
+			"textures": "textures/blocks/chandelier/chandelier_1"
+		},
+		"pafa_chandelier_2": {
+			"textures": "textures/blocks/chandelier/chandelier_2"
+		},
+		"pafa_chandelier_3": {
+			"textures": "textures/blocks/chandelier/chandelier_3"
+		},
+		"cabinet_5_black": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_black"
+		},
+		"cabinet_5_blue": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_blue"
+		},
+		"cabinet_5_brown": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_brown"
+		},
+		"cabinet_5_cyan": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_cyan"
+		},
+		"cabinet_5_gray": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_gray"
+		},
+		"cabinet_5_green": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_green"
+		},
+		"cabinet_5_light_blue": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_light_blue"
+		},
+		"cabinet_5_silver": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_light_gray"
+		},
+		"cabinet_5_lime": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_lime"
+		},
+		"cabinet_5_magenta": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_magenta"
+		},
+		"cabinet_5_orange": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_orange"
+		},
+		"cabinet_5_pink": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_pink"
+		},
+		"cabinet_5_purple": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_purple"
+		},
+		"cabinet_5_red": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_red"
+		},
+		"cabinet_5_white": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_white"
+		},
+		"cabinet_5_yellow": {
+			"textures": "textures/blocks/cabinet_5/cabinet_5_yellow"
+		},
+		"pafa_garage_switch": {
+			"textures": "textures/blocks/garage_switch"
+		},
+		"pafa_garage_door": {
+			"textures": "textures/blocks/garage_doorblock"
+		},
+		"classroom_board": {
+			"textures": "textures/blocks/classroom_board"
+		},
+		"classroom_board2": {
+			"textures": "textures/blocks/classroom_board2"
+		},
+		"pafa_crt_tv": {
+			"textures": "textures/blocks/crt_tv"
+		},
+		"pafa_rope_stand": {
+			"textures": "textures/blocks/rope_stand"
+		},
+		"teachers_table_1": {
+			"textures": "textures/blocks/teachers_table/teachers_table_1"
+		},
+		"teachers_table_2": {
+			"textures": "textures/blocks/teachers_table/teachers_table_2"
+		},
+		"classroom_table": {
+			"textures": "textures/blocks/classroom_table"
+		},
+		"classroom_chair_2": {
+			"textures": "textures/blocks/classroom_chair_1/classroom_chair_2"
+		},
+		"black_rug": {
+			"textures": "textures/blocks/rug/rug_black"
+		},
+		"blue_rug": {
+			"textures": "textures/blocks/rug/rug_blue"
+		},
+		"brown_rug": {
+			"textures": "textures/blocks/rug/rug_brown"
+		},
+		"cyan_rug": {
+			"textures": "textures/blocks/rug/rug_cyan"
+		},
+		"gray_rug": {
+			"textures": "textures/blocks/rug/rug_gray"
+		},
+		"green_rug": {
+			"textures": "textures/blocks/rug/rug_green"
+		},
+		"light_blue_rug": {
+			"textures": "textures/blocks/rug/rug_light_blue"
+		},
+		"light_gray_rug": {
+			"textures": "textures/blocks/rug/rug_light_gray"
+		},
+		"lime_rug": {
+			"textures": "textures/blocks/rug/rug_lime"
+		},
+		"magenta_rug": {
+			"textures": "textures/blocks/rug/rug_magenta"
+		},
+		"orange_rug": {
+			"textures": "textures/blocks/rug/rug_orange"
+		},
+		"pink_rug": {
+			"textures": "textures/blocks/rug/rug_pink"
+		},
+		"purple_rug": {
+			"textures": "textures/blocks/rug/rug_purple"
+		},
+		"red_rug": {
+			"textures": "textures/blocks/rug/rug_red"
+		},
+		"white_rug": {
+			"textures": "textures/blocks/rug/rug_white"
+		},
+		"yellow_rug": {
+			"textures": "textures/blocks/rug/rug_yellow"
+		},
+		"pafa_painting1": {
+			"textures": "textures/entity/pafa_painting1"
+		},
+		"pafa_painting2": {
+			"textures": "textures/entity/pafa_painting2"
+		},
+		"pafa_painting3": {
+			"textures": "textures/entity/pafa_painting3"
+		},
+		"pafa_piano1": {
+			"textures": "textures/entity/pafa_piano1"
+		},
+		"pafa_piano2": {
+			"textures": "textures/entity/pafa_piano2"
+		},
+		"cabriole": {
+			"textures": "textures/blocks/sofa/cabriole/cabriole"
+		},
+		"chesterfield": {
+			"textures": "textures/blocks/sofa/chesterfi/chesterfield"
+		},
+		"lawson": {
+			"textures": "textures/blocks/sofa/lawson/lawson"
+		},
+		"mid_century": {
+			"textures": "textures/blocks/sofa/mid_century/mid_century"
+		},
+		"settee": {
+			"textures": "textures/blocks/sofa/settee/settee"
+		},
+		"dressing_table": {
+			"textures": "textures/blocks/dressing_table"
+		},
+		"wall_frame_1A": {
+			"textures": "textures/blocks/paint_wall/1/wall_frame_1A"
+		},
+		"wall_frame_1B": {
+			"textures": "textures/blocks/paint_wall/1/wall_frame_1B"
+		},
+		"wall_frame_1C": {
+			"textures": "textures/blocks/paint_wall/1/wall_frame_1C"
+		},
+		"wall_frame_2A": {
+			"textures": "textures/blocks/paint_wall/2/wall_frame_2A"
+		},
+		"lamp_tall_1": {
+			"textures": "textures/blocks/lamp_tall"
+		},
+		"lamp_tall_2": {
+			"textures": "textures/blocks/lamp_tall/lamp_tall2"
+		},
+		"lamp_tall_3": {
+			"textures": "textures/blocks/lamp_tall/lamp_tall3"
+		},
+		"wardrobe": {
+			"textures": "textures/blocks/wardrobe"
+		},
+		"coffee_table1": {
+			"textures": "textures/blocks/coffee_table/coffee_table1"
+		},
+		"coffee_table2": {
+			"textures": "textures/blocks/coffee_table/coffee_table2"
+		},
+		"coffee_table3": {
+			"textures": "textures/blocks/coffee_table/coffee_table3"
+		},
+		"television_stand1": {
+			"textures": "textures/blocks/television_stand/television_stand1"
+		},
+		"television_stand2": {
+			"textures": "textures/blocks/television_stand/television_stand2"
+		},
+		"pafa_dining_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_dining_table"
+		},
+		"pafa_picnic_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_picnic_table"
+		},
+		"pafa_moroccan_tea_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_moroccan_tea_table"
+		},
+		"pafa_chowki_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_chowki_table"
+		},
+		"pafa_buffet_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_buffet_table"
+		},
+		"pafa_gateleg_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_gateleg_table"
+		},
+		"pafa_refactory_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_refectory_table"
+		},
+		"pafa_swedish_metamorphic_coffee_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_swedish_metamorphic_coffee_table"
+		},
+		"pafa_trestle_table": {
+			"textures": "textures/blocks/pafa_1_0_6/pafa_trestle_table"
+		},
+		"pafa_live_edge": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_live_edge"
+		},
+		"pafa_open_back": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_open_back"
+		},
+		"pafa_slat": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_slat"
+		},
+		"pafa_fan_back": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_fan_back"
+		},
+		"pafa_ladder_back": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_ladder_back"
+		},
+		"pafa_tutted": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_tutted"
+		},
+		"pafa_parsons": {
+			"textures": "textures/blocks/pafa_1_0_6/chairs/pafa_parsons"
+		},
+		"pafa_shutter_window1_white": {
+			"textures": "textures/blocks/pafa_shutter_window/pafa_shutter_window_white"
+		},
+		"pafa_high_chair_black": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_black"
+		},
+		"pafa_high_chair_blue": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_blue"
+		},
+		"pafa_high_chair_brown": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_brown"
+		},
+		"pafa_high_chair_cyan": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_cyan"
+		},
+		"pafa_high_chair_gray": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_gray"
+		},
+		"pafa_high_chair_green": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_green"
+		},
+		"pafa_high_chair_light_blue": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_light_blue"
+		},
+		"pafa_high_chair_light_gray": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_light_gray"
+		},
+		"pafa_high_chair_lime": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_lime"
+		},
+		"pafa_high_chair_magenta": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_magenta"
+		},
+		"pafa_high_chair_orange": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_orange"
+		},
+		"pafa_high_chair_pink": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_pink"
+		},
+		"pafa_high_chair_purple": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_purple"
+		},
+		"pafa_high_chair_red": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_red"
+		},
+		"pafa_high_chair_white": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair"
+		},
+		"pafa_high_chair_yellow": {
+			"textures": "textures/blocks/pafa_high_chair/pafa_high_chair_yellow"
+		},
+		"pafa_office_chair_black": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_black"
+		},
+		"pafa_office_chair_blue": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_blue"
+		},
+		"pafa_office_chair_brown": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_brown"
+		},
+		"pafa_office_chair_cyan": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_cyan"
+		},
+		"pafa_office_chair_gray": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_gray"
+		},
+		"pafa_office_chair_green": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_green"
+		},
+		"pafa_office_chair_light_blue": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_light_blue"
+		},
+		"pafa_office_chair_light_gray": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_light_gray"
+		},
+		"pafa_office_chair_lime": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_lime"
+		},
+		"pafa_office_chair_magenta": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_magenta"
+		},
+		"pafa_office_chair_orange": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_orange"
+		},
+		"pafa_office_chair_pink": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_pink"
+		},
+		"pafa_office_chair_purple": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_purple"
+		},
+		"pafa_office_chair_red": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_red"
+		},
+		"pafa_office_chair_white": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_white"
+		},
+		"pafa_office_chair_yellow": {
+			"textures": "textures/blocks/office_chair/pafa_office_chair_yellow"
+		},
+		"pafa_ottoman_chair_black": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_black"
+		},
+		"pafa_ottoman_chair_blue": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_blue"
+		},
+		"pafa_ottoman_chair_brown": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_brown"
+		},
+		"pafa_ottoman_chair_cyan": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_cyan"
+		},
+		"pafa_ottoman_chair_gray": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_gray"
+		},
+		"pafa_ottoman_chair_green": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_green"
+		},
+		"pafa_ottoman_chair_light_blue": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_light_blue"
+		},
+		"pafa_ottoman_chair_light_gray": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_light_gray"
+		},
+		"pafa_ottoman_chair_lime": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_lime"
+		},
+		"pafa_ottoman_chair_magenta": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_magenta"
+		},
+		"pafa_ottoman_chair_orange": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_orange"
+		},
+		"pafa_ottoman_chair_pink": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_pink"
+		},
+		"pafa_ottoman_chair_purple": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_purple"
+		},
+		"pafa_ottoman_chair_red": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_red"
+		},
+		"pafa_ottoman_chair_white": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_white"
+		},
+		"pafa_ottoman_chair_yellow": {
+			"textures": "textures/blocks/ottoman_chair/ottoman_chair_light_yellow"
+		},
+		"pafa_step_stool_black": {
+			"textures": "textures/blocks/stool/pafa_stool_black"
+		},
+		"pafa_step_stool_blue": {
+			"textures": "textures/blocks/stool/pafa_stool_blue"
+		},
+		"pafa_step_stool_brown": {
+			"textures": "textures/blocks/stool/pafa_stool_brown"
+		},
+		"pafa_step_stool_cyan": {
+			"textures": "textures/blocks/stool/pafa_stool_cyan"
+		},
+		"pafa_step_stool_gray": {
+			"textures": "textures/blocks/stool/pafa_stool_gray"
+		},
+		"pafa_step_stool_green": {
+			"textures": "textures/blocks/stool/pafa_stool_green"
+		},
+		"pafa_step_stool_light_blue": {
+			"textures": "textures/blocks/stool/pafa_stool_light_blue"
+		},
+		"pafa_step_stool_light_gray": {
+			"textures": "textures/blocks/stool/pafa_stool_light_gray"
+		},
+		"pafa_step_stool_lime": {
+			"textures": "textures/blocks/stool/pafa_stool_lime"
+		},
+		"pafa_step_stool_magenta": {
+			"textures": "textures/blocks/stool/pafa_stool_magenta"
+		},
+		"pafa_step_stool_orange": {
+			"textures": "textures/blocks/stool/pafa_stool_orange"
+		},
+		"pafa_step_stool_pink": {
+			"textures": "textures/blocks/stool/pafa_stool_pink"
+		},
+		"pafa_step_stool_purple": {
+			"textures": "textures/blocks/stool/pafa_stool_purple"
+		},
+		"pafa_step_stool_red": {
+			"textures": "textures/blocks/stool/pafa_stool_red"
+		},
+		"pafa_step_stool_white": {
+			"textures": "textures/blocks/stool/pafa_stool_white"
+		},
+		"pafa_step_stool_yellow": {
+			"textures": "textures/blocks/stool/pafa_stool_yellow"
+		},
+		"pafa_stool2_black": {
+			"textures": "textures/blocks/stool2/pafa_stool2_black"
+		},
+		"pafa_stool2_blue": {
+			"textures": "textures/blocks/stool2/pafa_stool2_blue"
+		},
+		"pafa_stool2_brown": {
+			"textures": "textures/blocks/stool2/pafa_stool2_cyan"
+		},
+		"pafa_stool2_cyan": {
+			"textures": "textures/blocks/stool2/pafa_stool2_cyan"
+		},
+		"pafa_stool2_gray": {
+			"textures": "textures/blocks/stool2/pafa_stool2_gray"
+		},
+		"pafa_stool2_green": {
+			"textures": "textures/blocks/stool2/pafa_stool2_green"
+		},
+		"pafa_stool2_light_blue": {
+			"textures": "textures/blocks/stool2/pafa_stool2_light_blue"
+		},
+		"pafa_stool2_light_gray": {
+			"textures": "textures/blocks/stool2/pafa_stool2_light_gray"
+		},
+		"pafa_stool2_lime": {
+			"textures": "textures/blocks/stool2/pafa_stool2_lime"
+		},
+		"pafa_stool2_magenta": {
+			"textures": "textures/blocks/stool2/pafa_stool2_magenta"
+		},
+		"pafa_stool2_orange": {
+			"textures": "textures/blocks/stool2/pafa_stool2_orange"
+		},
+		"pafa_stool2_pink": {
+			"textures": "textures/blocks/stool2/pafa_stool2_pink"
+		},
+		"pafa_stool2_purple": {
+			"textures": "textures/blocks/stool2/pafa_stool2_purple"
+		},
+		"pafa_stool2_red": {
+			"textures": "textures/blocks/stool2/pafa_stool2_red"
+		},
+		"pafa_stool2_white": {
+			"textures": "textures/blocks/stool2/pafa_stool2_white"
+		},
+		"pafa_stool2_yellow": {
+			"textures": "textures/blocks/stool2/pafa_stool2_yellow"
+		},
+		"pafa_scalloped_fence": {
+			"textures": "textures/blocks/pafa_scalloped_fence"
+		},
+		"pafa_orange_barrier": {
+			"textures": "textures/blocks/pafa_orange_barrier"
+		},
+		"pafa_gap_horizontal_fence": {
+			"textures": "textures/blocks/pafa_gap_horizontal"
+		}
+	}
+}

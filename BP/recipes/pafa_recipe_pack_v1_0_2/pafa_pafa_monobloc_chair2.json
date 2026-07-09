@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:pafa_monobloc_chair2"
+    },
+    "tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+    "result": {
+      "item": "pafa:pafa_monobloc_chair2",
+      "count": 1
+    }
+  }
+}

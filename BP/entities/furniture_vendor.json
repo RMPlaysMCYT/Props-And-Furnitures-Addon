@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "pafa:furniture_vendor",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "height": 2,
+                "width": 2
+            },
+            "minecraft:health": {
+                "value": 5
+            },
+            "minecraft:trade_table": {
+                "display_name": "Furniture Vendor",
+                "new_screen": true,
+                "table": "trading/furni_shop.json"
+            },
+            "minecraft:physics": {}
+        }
+    }
+}

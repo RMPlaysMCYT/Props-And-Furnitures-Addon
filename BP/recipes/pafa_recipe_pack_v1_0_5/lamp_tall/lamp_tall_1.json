@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:lamp_tall_1"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "pafa:crate"
+      }
+    ],
+    "result": [
+      {
+        "item": "pafa:lamp_tall_1",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:cabinet_4_magenta",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+            "pafa:death_bch":{
+                "minecraft:instant_despawn": {}
+            }
+		},
+		"components": {
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    }
+                ]
+            },
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers":[
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:collision_box": {
+				"width": 1.6,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 1
+			},
+			"minecraft:on_hurt_by_player": {
+				"event": "pafa:destroy"
+			},
+			"minecraft:inventory": {
+				"inventory_size": 27,
+				"container_type": "container"
+			},
+			"minecraft:on_hurt": {
+				"event": "pafa:destroy"
+			},
+			"minecraft:physics": {
+				"has_collision": true
+			}
+		},
+		"events": {
+		  "minecraft:entity_spawned": {
+		  },
+			"pafa:destroy": {
+				"queue_command": {
+					"command": [
+						"give @p pafa:cabinet_4_magenta_spawn_egg 1 0"
+					]
+				}
+			},
+            "pafa:furnit_killed":{
+				"queue_command": {
+					"command": [
+						"give @p pafa:cabinet_4_magenta_spawn_egg 1 0"
+					]
+				},
+                "add": {
+                    "component_groups": [
+                        "pafa:death_bch"
+                    ]
+                }
+            }
+		}
+	}
+}

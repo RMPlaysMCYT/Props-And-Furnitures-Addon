@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pafa:electric_fan",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/electric_fan"
+			},
+			"geometry": {
+				"default": "geometry.electric_fan"
+			},
+			"spawn_egg": {
+				"texture": "electric_fan",
+				"texture_index": 0
+			},
+			"render_controllers": [
+				"controller.render.freezer_chest"
+			]
+		}
+	}
+}

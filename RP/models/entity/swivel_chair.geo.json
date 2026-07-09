@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.swivel_chair",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "swivel_chair",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 8, -6], "size": [14, 2, 12], "uv": [0, 0]},
+						{"origin": [-7, 10, 4], "size": [14, 10, 2], "uv": [52, 0]},
+						{"origin": [6, 13, -2], "size": [1, 1, 6], "inflate": -0.01, "uv": [28, 32]},
+						{"origin": [-7, 13, -2], "size": [1, 1, 6], "inflate": -0.01, "uv": [14, 32]},
+						{"origin": [6, 12.14645, -1.93934], "size": [1, 1, 6], "inflate": -0.01, "pivot": [0, 12.64645, -0.93934], "rotation": [-45, 0, 0], "uv": [36, 23]},
+						{"origin": [-7, 12.14645, -1.93934], "size": [1, 1, 6], "inflate": -0.01, "pivot": [0, 12.64645, -0.93934], "rotation": [-45, 0, 0], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "hexadecagon0",
+					"parent": "swivel_chair",
+					"pivot": [0, 0.5, 0],
+					"cubes": [
+						{"origin": [-0.79565, 0, -4], "size": [1.5913, 1, 8], "pivot": [0, 0.5, 0], "rotation": [0, 45, 0], "uv": [18, 23]},
+						{"origin": [-0.79565, 0, -4], "size": [1.5913, 1, 8], "pivot": [0, 0.5, 0], "rotation": [0, 22.5, 0], "uv": [0, 23]},
+						{"origin": [-0.79565, 0, -4], "size": [1.5913, 1, 8], "uv": [36, 14]},
+						{"origin": [-0.79565, 0, -4], "size": [1.5913, 1, 8], "pivot": [0, 0.5, 0], "rotation": [0, -22.5, 0], "uv": [18, 14]},
+						{"origin": [-0.79565, 0, -4], "size": [1.5913, 1, 8], "pivot": [0, 0.5, 0], "rotation": [0, -45, 0], "uv": [0, 14]},
+						{"origin": [-4, 0, -0.79565], "size": [8, 1, 1.5913], "pivot": [0, 0.5, 0], "rotation": [0, 22.5, 0], "uv": [0, 41]},
+						{"origin": [-4, 0, -0.79565], "size": [8, 1, 1.5913], "uv": [0, 39]},
+						{"origin": [-4.09442, 0.07923, -0.79565], "size": [1, 9, 1.5913], "pivot": [-3.59442, 0.57923, 0], "rotation": [0, 0, -10], "uv": [22, 39]},
+						{"origin": [3.09442, 0.07923, -0.79565], "size": [1, 9, 1.5913], "pivot": [3.59442, 0.57923, 0], "rotation": [0, 0, 10], "uv": [18, 39]},
+						{"origin": [-4, 0, -0.79565], "size": [8, 1, 1.5913], "pivot": [0, 0.5, 0], "rotation": [0, -22.5, 0], "uv": [42, 32]}
+					]
+				}
+			]
+		}
+	]
+}

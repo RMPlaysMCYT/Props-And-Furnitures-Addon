@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.electric_fan2.swing_ac": {
+			"states": {
+				"default": {
+					"animations": [
+						"setup"
+					],
+					"transitions": [
+						{
+							"loop_no_swing": "query.mark_variant == 1"
+						}
+					],
+					"blend_transition": 4,
+					"blend_via_shortest_path": true
+				},
+				"loop_no_swing": {
+					"animations": [
+						"loop"
+					],
+					"transitions": [
+						{
+							"loop_wswing": "query.mark_variant == 2"
+						}
+					],
+					"blend_transition": 4,
+					"blend_via_shortest_path": true
+				},
+				"loop_wswing": {
+					"animations": [
+						"loop",
+						"swing"
+					],
+					"transitions": [
+						{
+							"default": "query.mark_variant == 0"
+						}
+					],
+					"blend_transition": 4,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

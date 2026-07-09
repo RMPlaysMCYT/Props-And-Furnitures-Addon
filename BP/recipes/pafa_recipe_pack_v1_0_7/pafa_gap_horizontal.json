@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:pafa_gap_horizontal.recipe"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "ingredients": [
+      {
+        "item": "pafa:crate"
+      }
+    ],
+    "result": [
+      {
+        "item": "pafa:gap_horizontal_fence",
+        "count": 1
+      }
+    ]
+  }
+}

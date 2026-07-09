@@ -1,0 +1,133 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:computer_1",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+            "states": {
+                "pafa:pc_switch_pages": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+            {
+                "condition": "q.block_state('pafa:pc_switch_pages') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "pafa_computer_1_0"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('pafa:pc_switch_pages') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "pafa_computer_1_1"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('pafa:pc_switch_pages') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "pafa_computer_1_2"
+                        }
+                    }
+                }
+            }
+		],
+		"components": {
+			"minecraft:custom_components": [
+				"pafa:pc_interactiones"
+			],
+			"minecraft:material_instances": {
+				"*":{
+					"texture": "pafa_computer_1_0",
+					"ambient_occlusion": true,
+					"face_dimming": true,
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					8,
+					16,
+					8
+				]
+			},
+			"minecraft:loot": "loot_tables/v_1_0_0/computers/computer_1.json",
+			"minecraft:geometry": "geometry.computer_1"
+		}
+	}
+}

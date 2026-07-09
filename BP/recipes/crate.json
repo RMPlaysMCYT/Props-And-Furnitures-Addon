@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pafa:crate_shapeless"
+		},
+		"tags":[
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#A#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:oak_planks"
+			},
+			"A": {
+				"item": "minecraft:paper",
+				"count": 4
+			}
+		},
+		"result": [
+			{
+				"item": "pafa:crate",
+				"count": 16
+			}
+		]
+	}
+}

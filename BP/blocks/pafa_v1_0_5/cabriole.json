@@ -1,0 +1,122 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:cabriole",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"states": {
+				"pafa:cabriole_left": [
+					false,
+					true
+				],
+				"pafa:cabriole_right": [
+					false,
+					true
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 0,
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pafa:sofa_sit_player_component",
+				"pafa:sofa_cabriole_connections"
+			],
+			"minecraft:tick": {
+				"looping": true,
+				"interval_range": [
+					2,
+					2
+				]
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.cabriole",
+				"bone_visibility": {
+					"left": "q.block_state('pafa:cabriole_left') == 0",
+					"right": "q.block_state('pafa:cabriole_right') == 0",
+					"cabriole_center": "q.block_state('pafa:cabriole_left') == 0 && q.block_state('pafa:cabriole_right') == 0",
+					"cabriole_center2": "q.block_state('pafa:cabriole_left') == 1 && q.block_state('pafa:cabriole_right') == 1",
+					"cabriole_left": "q.block_state('pafa:cabriole_left') == 0 && q.block_state('pafa:cabriole_right') == 1",
+					"cabriole_right": "q.block_state('pafa:cabriole_right') == 0 && q.block_state('pafa:cabriole_left') == 1"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cabriole",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"minecraft:loot": "loot_tables/v_1_0_5/cabriole.json",
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 6, 16]
+			},
+			"minecraft:selection_box":true
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					},
+					"tag:pafa:CabrioleNorth": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					},
+					"tag:pafa:CabrioleWest": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					},
+					"tag:pafa:CabrioleSouth": {}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					},
+					"tag:pafa:CabrioleEast": {}
+				}
+			}
+		]
+	}
+}

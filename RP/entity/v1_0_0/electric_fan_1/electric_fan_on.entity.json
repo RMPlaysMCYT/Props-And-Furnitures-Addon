@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pafa:electric_fan_on",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/electric_fan"
+			},
+			"geometry": {
+				"default": "geometry.electric_fan"
+			},
+			"animations": {
+				"loop": "animation.electric_fan.loop"
+			},
+			"scripts": {
+				"animate": [
+					"loop"
+				]
+			},
+			"render_controllers": [
+				"controller.render.freezer_chest"
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pafa:garage_door",
+            "geometry": {
+                "default": "geometry.pafa_garage_door"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/garage_door"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

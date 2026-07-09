@@ -1,0 +1,223 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:sliding_door_2_close",
+			"properties": {
+				"pafa:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5
+				],
+				"pafa:open": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.sliding_door_1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_sliding_door_2",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "pafa:facing"
+			},
+			"minecraft:loot": "loot_tables/v_1_0_0/doors/sliding_door_2.json",
+			"minecraft:entity_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					15,
+					16,
+					15
+				]
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					15,
+					16,
+					15
+				]6
+				]
+			},
+			"minecraft:on_placed": {
+				"event": "nothing"
+			},
+			"minecraft:map_color": "#3A94E7",
+			"minecraft:on_interact": {
+				"event": "pafa:open"
+			},
+			"minecraft:creative_category": {
+				"category": "Construction",
+				"group": "itemGroup.name.Construction"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('pafa:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:open') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.sliding_door_1_open",
+					"minecraft:entity_collision": {
+						"origin": [
+							-7,
+							0,
+							-7
+						],
+						"size": [
+							1,
+							16,
+							15
+						]
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-7,
+							0,
+							-7
+						],
+				"size": [
+					15,
+					16,
+					15
+				]
+					},
+					"minecraft:on_placed": {
+						"event": "nothing"
+					},
+					"minecraft:on_interact": {
+						"event": "pafa:neutral"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('pafa:open') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.sliding_door_1",
+					"minecraft:entity_collision": {
+						"origin": [
+							-7,
+							0,
+							-7
+						],
+				"size": [
+					15,
+					16,
+					15
+				]
+					},
+					"minecraft:collision_box": {
+						"origin": [
+							-7,
+							0,
+							-7
+						],
+				"size": [
+					15,
+					16,
+					15
+				]
+					},
+					"minecraft:on_placed": {
+						"event": "nothing"
+					},
+					"minecraft:on_interact": {
+						"event": "pafa:open"
+					}
+				}
+			}
+		],
+		"events": {
+			"pafa:facing": {
+				"set_block_property": {
+					"pafa:facing": "query.cardinal_facing_2d"
+				},
+				"queue_command": {
+					"command": [
+						"playsound block.door.close @p ~~~ 1 1",
+						"setblock ~ ~1 ~ barrier 0 replace"
+					]
+				}
+			},
+			"pafa:open": {
+				"set_block_property": {
+					"pafa:open": 1
+				},
+				"queue_command": {
+					"command": [
+						"playsound block.door.open @p ~~~ 1 1",
+						"setblock ~ ~1 ~ air 0 replace"
+					]
+				}
+			},
+			"pafa:neutral": {
+				"set_block_property": {
+					"pafa:open": 2
+				},
+				"queue_command": {
+					"command": [
+						"playsound block.door.close @p ~~~ 1 1",
+						"setblock ~ ~1 ~ barrier 0 replace"
+					]
+				}
+			}
+		}
+	}
+}

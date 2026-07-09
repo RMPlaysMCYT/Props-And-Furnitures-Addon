@@ -1,0 +1,132 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:pafa_shutter_window1",
+			"is_experimental": false,
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states":{
+				"pafa:glass_window_interact":[
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/v_1_0_6/pafa_shutter_window1.json",
+			"minecraft:custom_components":[
+				"pafa:glassShutter",
+				"pafa:glass_window_interact_compo"
+			],
+			"tag:no_solid": {},
+			"tag:pafa:whiteshutterpiano":{},
+			"minecraft:geometry": "geometry.pafa_shutter_window_close",
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_shutter_window1_white",
+					"render_method": "alpha_test"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					},
+					"tag:pafa:glass_shutter_north":{}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					},
+					"tag:pafa:glass_shutter_west":{}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					},
+					"tag:pafa:glass_shutter_south":{}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					},
+					"tag:pafa:glass_shutter_east":{}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('pafa:glass_window_interact')",
+				"components": {
+					"minecraft:geometry": "geometry.pafa_shutter_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('pafa:glass_window_interact')",
+				"components": {
+					"minecraft:geometry": "geometry.pafa_shutter_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('pafa:glass_window_interact')",
+				"components": {
+					"minecraft:geometry": "geometry.pafa_shutter_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('pafa:glass_window_interact')",
+				"components": {
+					"minecraft:geometry": "geometry.pafa_shutter_window_open"
+				}
+			}
+		]
+	}
+}

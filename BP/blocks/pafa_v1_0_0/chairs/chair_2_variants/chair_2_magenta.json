@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:chair_2_magenta",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 0,
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:custom_components": [
+				"pafa:sit_player_component"
+			],
+			"minecraft:geometry": "geometry.chair_2",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_chair_2_magenta",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					14,
+					12
+				]
+			},
+			"minecraft:loot": "loot_tables/v_1_0_0/chair_2/chair_2_magenta.json"
+		}
+	}
+}

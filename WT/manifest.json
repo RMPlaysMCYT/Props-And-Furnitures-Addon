@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			""
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "2da3253d-ab77-447b-8348-477abc7acb78",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"lock_template_options": true,
+		"base_game_version": [
+			1,
+			21,
+			20
+		]
+	},
+	"modules": [
+		{
+			"type": "world_template",
+			"uuid": "b6a289b8-fb0c-48ca-b3b7-126f882080c3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

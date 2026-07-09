@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pafa:pafa_inflatable_ring",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"red": "textures/entity/pafa_inflatable_ring/pafa_inflatable_ring_red",
+				"green": "textures/entity/pafa_inflatable_ring/pafa_inflatable_ring_green",
+				"blue": "textures/entity/pafa_inflatable_ring/pafa_inflatable_ring_blue",
+				"yellow": "textures/entity/pafa_inflatable_ring/pafa_inflatable_ring_yellow"
+			},
+			"geometry": {
+				"default": "geometry.inflatable_ring"
+			},
+			"animations": {
+				"land_inflatable_ring": "animation.player.land_inflatable_ring.ride"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"land_inflatable_ring": "query.has_rider&&query.is_on_ground"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.pafa_inflatable_ring"
+			],
+			"spawn_egg": {
+				"texture": "pafa_inflatable_ring",
+				"texture_index": 0
+			}
+		}
+	}
+}

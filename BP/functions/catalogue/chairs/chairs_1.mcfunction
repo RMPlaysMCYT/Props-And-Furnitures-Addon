@@ -1,0 +1,1 @@
+give @s pafa:chair_1 1

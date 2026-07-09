@@ -1,0 +1,116 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:sink_1",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"states":{
+				"pafa:open_sink":[
+					0,
+					1
+				]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 0,
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pafa:sink_interactive"
+			],
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_sink_1",
+					"render_method": "opaque",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:geometry": "geometry.sink_1",
+			"minecraft:selection_box":true,
+			"minecraft:loot": "loot_tables/v_1_0_0/living_section/sink.json",
+			"minecraft:collision_box": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					15,
+					15,
+					15
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+            {
+                "condition": "q.block_state('pafa:open_sink') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.sink_1"
+                }
+            },
+            {
+                "condition": "q.block_state('pafa:open_sink') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.sink_1_on"
+                }
+            }
+		]
+	}
+}

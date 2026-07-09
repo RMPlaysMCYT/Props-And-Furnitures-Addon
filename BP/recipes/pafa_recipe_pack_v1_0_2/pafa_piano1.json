@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:piano1"
+    },
+    "tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+    "result": [
+      {
+      "item": "pafa:pafa_piano1_spawn_egg",
+      "count": 1
+    }]
+  }
+}

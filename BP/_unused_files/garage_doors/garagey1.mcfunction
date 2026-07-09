@@ -1,0 +1,6 @@
+fill ~ ~-1 ~ ~ ~-8 ~ pafa:garage_doorblocky4 [] replace air []
+fill ~ ~-1 ~ ~ ~-7 ~ pafa:garage_doorblocky4 [] replace air []
+fill ~ ~-1 ~ ~ ~-6 ~ pafa:garage_doorblocky4 [] replace air []
+fill ~ ~-1 ~ ~ ~-5 ~ pafa:garage_doorblocky4 [] replace air []
+fill ~ ~-1 ~ ~ ~-4 ~ pafa:garage_doorblocky4 [] replace air []
+fill ~ ~-1 ~ ~ ~-3 ~ pafa:garage_doorblocky4 [] replace air []

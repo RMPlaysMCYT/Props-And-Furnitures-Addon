@@ -1,0 +1,90 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "pafa:garage_door",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "pafa:damaged": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "width": 1,
+                        "height": 3.5,
+                        "pivot": [
+                            0,
+                            1.75,
+                            0
+                        ]
+                    },
+                    {
+                        "width": 1,
+                        "height": 3.5,
+                        "pivot": [
+                            1,
+                            1.75,
+                            0
+                        ]
+                    },
+                    {
+                        "width": 1,
+                        "height": 3.5,
+                        "pivot": [
+                            -1,
+                            1.75,
+                            0
+                        ]
+                    }
+                ]
+            },
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "interact_text": "Remove Furniture ?",
+                        "swing": true,
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "domain": "hand",
+                                        "subject": "other",
+                                        "value": "pafa:furni_remover"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:emotionally_damaged"
+                        }
+                    }
+                ]
+            },
+            "minecraft:health": {
+                "value": 100000
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:knockback_resistance": {
+                "value": 10000
+            },
+            "minecraft:physics": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {},
+            "pafa:emotionally_damaged": {
+                "add": {
+                    "component_groups": [
+                        "pafa:damaged"
+                    ]
+                }
+            }
+        }
+    }
+}

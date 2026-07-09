@@ -1,0 +1,1220 @@
+{
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:bench_1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:bench_2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:bench_3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:bench_4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:bench_5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_black"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_blue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_brown"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_cyan"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_gray"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_green"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_light_blue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_light_gray"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_lime"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_magenta"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_orange"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_pink"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_purple"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_red"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_white"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:cabinet_4_yellow"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:christmas_lantern_blue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:christmas_lantern_green"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:christmas_lantern_red"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+
+
+
+
+
+
+
+
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_black"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_blue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_brown"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_cyan"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_gray"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_green"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_light_blue"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_light_gray"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_lime"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_magenta"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_orange"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_pink"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_purple"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_red"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_white"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan2_yellow"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:electric_fan_1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:freezer_chest"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:pafa_inflatable_ring"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:pafa_piano1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:piano2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:seat_classroom"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:street_lights"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "item": "pafa:crate",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:spawn_egg",
+                                    "functions": [
+                                        {
+                                            "function": "set_actor_id",
+                                            "id": "pafa:water_dispenser"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

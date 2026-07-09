@@ -1,0 +1,44 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:freezer_chest",
+			"runtime_identifier": "minecraft:shulker",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/freezer_chest.json",
+			"minecraft:health": {
+				"value": 20
+			},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "minecraft:iron_ingot",
+						"heal_amount": 10,
+						"effects": [
+							{
+								"name": "regeneration",
+								"duration": 5,
+								"amplifier": 10
+							}
+						]
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:is_chested": {},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 27
+			}
+		},
+		"events": {},
+		"component_groups": {}
+	}
+}

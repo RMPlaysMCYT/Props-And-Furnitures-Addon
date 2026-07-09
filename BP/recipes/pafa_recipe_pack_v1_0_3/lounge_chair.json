@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:lounge_chair"
+    },
+    "tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+    "result": [
+      {
+        "item": "pafa:lounge_chair",
+        "count": 1
+      }
+    ]
+  }
+}

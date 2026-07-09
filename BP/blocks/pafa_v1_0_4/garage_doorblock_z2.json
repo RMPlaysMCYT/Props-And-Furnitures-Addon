@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:garage_doorblock_z2",
+			"is_experimental": false,
+			"menu_category": {
+				"category": "items",
+				"group": "items"
+			}
+		},
+		"components": {
+			"minecraft:loot": "loot_tables/v_1_0_4/garage_doorz2.json",
+			"minecraft:destructible_by_mining":true,
+			"minecraft:destructible_by_explosion":false,
+			"minecraft:custom_components": [
+				"pafa:garagedoorY2Component"
+			],
+			"minecraft:geometry": "geometry.pafa_garage_doorblock_y",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_garage_door",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					8,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					8,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

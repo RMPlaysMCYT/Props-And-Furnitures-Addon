@@ -1,0 +1,1 @@
+replaceitem entity @r[=2] slot.weapon.mainhand 0 minecraft:glass_bottle 1 0 

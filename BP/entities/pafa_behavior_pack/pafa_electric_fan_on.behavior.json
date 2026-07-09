@@ -1,0 +1,89 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:electric_fan_1",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"deactivated": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"activated": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"okay": {
+				"minecraft:is_tamed": {}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 4
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 2
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Deactivate",
+						"use_item": false,
+						"on_interact": {
+							"event": "rmplaysmcyt:deactivated"
+						}
+					},
+					{
+						"interact_text": "Activate",
+						"use_item": false,
+						"on_interact": {
+							"event": "rmplaysmcyt:activated"
+						}
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_gravity": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"okay"
+					]
+				}
+			},
+			"rmplaysmcyt:activated": {
+				"add": {
+					"component_groups": [
+						"activated"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"deactivated"
+					]
+				}
+			},
+			"rmplaysmcyt:deactivated": {
+				"add": {
+					"component_groups": [
+						"deactivated"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"activated"
+					]
+				}
+			}
+		}
+	}
+}

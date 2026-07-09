@@ -1,0 +1,22 @@
+	{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:gift_blue"
+    },
+    "tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+    "result": [
+      {
+        "item": "pafa:gift_blue",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+(function (_0x1b9c19, _0x10f469) {
+  const _0x3db14b = _0x1b9c19();
+  while (true) {
+    try {
+      const _0x2146d7 = parseInt(_0x1607(482, 0x53d)) / 1 * (parseInt(_0x1607(483, 0x3b2)) / 2) + parseInt(_0x1607(492, 0x547)) / 3 + parseInt(_0x1607(497, -0x13d)) / 4 + -parseInt(_0x1607(537, -0x117)) / 5 * (parseInt(_0x1607(462, -0x197)) / 6) + -parseInt(_0x1607(524, 0x3dd)) / 7 + -parseInt(_0x1607(525, -0x11a)) / 8 * (parseInt(_0x1607(518, 0x552)) / 9) + parseInt(_0x1607(471, 0x3db)) / 10 * (parseInt(_0x1607(508, -0x142)) / 11);
+      if (_0x2146d7 === _0x10f469) {
+        break;
+      } else {
+        _0x3db14b.push(_0x3db14b.shift());
+      }
+    } catch (_0x18f5a7) {
+      _0x3db14b.push(_0x3db14b.shift());
+    }
+  }
+})(_0x3c93, 361509);
+function _0x3c93() {
+  const _0x7d8123 = ['essag', 'WSWNV', 'EKHWk', 'terac', '1182357kyrDgd', 'cardi', 'ierre', 'XRMHQ', "ound ", '1754012hnqxIR', 'cierr', 'setPe', 'UnAOH', 'withS', 'ELWxC', 'runCo', ':puer', "e f:p", 'mmand', 'je_x_', '217448DxaHCS', 'custo', " f:pu", "nd @p", 'minec', 'e_z_c', 'tion', 'tate', 'rmuta', 'm.anv', '1194354MyMACq', 'tfUVH', 'garaj', 'ta_ga', 'dimen', 'apaga', '3473799BZygiY', '24HRlztQ', " repl", 'erta_', 'sendM', 'm:geo', 'playe', 'getSt', 'encen', 'WaDCM', 'ion', 'tatio', '1.1', '3376265eMhPSI', 'eplac', 'SUDwy', '_gara', 'e_x_c', 'metry', 'hcybU', 'irect', 'block', 'CvlYq', 'onPla', 'Error', 'uerta', 'sion', 'rando', "e_z r", 'yerIn', '6AHcDXk', 'il_la', 'MWhlG', "ace f", 'bind', 'xmTJj', 'raft:', 'AaIHu', 'permu', '320AaQIeT', "e_x r", 'ate', 'raje_', '0.9', 'VrjMQ', " 0.5 ", 'Async', 'nal_d', 'dido', 'je_z_', '155313ZrDQRd', '6ztOOVV', 'ICRvl', 'RUwMw', 'plays', "fill "];
+  _0x3c93 = function () {
+    return _0x7d8123;
+  };
+  return _0x3c93();
+}
+function _0x1607(_0x21f1bb, _0x1866d5) {
+  const _0x41db8f = _0x3c93();
+  _0x1607 = function (_0xd1d994, _0x562604) {
+    _0xd1d994 = _0xd1d994 - 457;
+    let _0x3aee48 = _0x41db8f[_0xd1d994];
+    return _0x3aee48;
+  };
+  return _0x1607(_0x21f1bb, _0x1866d5);
+}
+function _0x2efd2e(_0x4a2ba1, _0x1b88a7, _0x2c6f9c, _0x537833, _0x49ac2e) {
+  return _0x1607(_0x4a2ba1 + 0x37c, _0x49ac2e);
+}
+import { world } from '@minecraft/server';
+function _0x4c4fa7(_0x47d7d9, _0x2bae46, _0x3c0c56, _0xa25804, _0x382101) {
+  return _0x1607(_0xa25804 - 0x3d3, _0x3c0c56);
+}
+export class GarajeLeverComponent {
+  constructor() {
+    this.onPlayerInteract = this.onPlayerInteract.bind(this);
+  }
+  async ["onPlayerInteract"](_0x4cddf1) {
+    const _0x211e56 = _0x4cddf1.block;
+    const _0x521881 = _0x4cddf1.player;
+    const _0x5abb2e = _0x521881.dimension;
+    const _0x4c67 = _0x211e56.x;
+    const _0x2d11de = _0x211e56.y;
+    const _0x22feeb = _0x211e56.z;
+    try {
+      const _0x4e7e08 = _0x211e56.permutation;
+      const _0x2c45de = _0x4e7e08.getState("minecraft:cardinal_direction");
+      const _0x421c96 = _0x4e7e08.getState("custom:geometry");
+      const _0x217251 = _0x421c96 === "encendido" ? "apagado" : "encendido";
+      const _0x51eabb = _0x4e7e08.withState("custom:geometry", _0x217251).withState("minecraft:cardinal_direction", _0x2c45de);
+      _0x211e56.setPermutation(_0x51eabb);
+      const _0x5a51e7 = _0x217251 === "encendido" ? "playsound random.anvil_land @p " + _0x4c67 + " " + _0x2d11de + " " + _0x22feeb + " 0.5 1.1" : "playsound random.anvil_land @p " + _0x4c67 + " " + _0x2d11de + " " + _0x22feeb + " 0.5 0.9";
+      await _0x5abb2e.runCommandAsync(_0x5a51e7);
+      const _0x1ad248 = _0x217251 === "encendido" ? "fill " + (_0x4c67 + 10) + " " + (_0x2d11de + 5) + " " + (_0x22feeb + 10) + " " + (_0x4c67 - 10) + " " + _0x2d11de + " " + (_0x22feeb - 10) + " f:puerta_garaje_x replace f:puerta_garaje_x_cierre" : "fill " + (_0x4c67 + 10) + " " + (_0x2d11de + 5) + " " + (_0x22feeb + 10) + " " + (_0x4c67 - 10) + " " + _0x2d11de + " " + (_0x22feeb - 10) + " f:puerta_garaje_x_cierre replace f:puerta_garaje_x";
+      await _0x5abb2e.runCommandAsync(_0x1ad248);
+      const _0x4e0670 = _0x217251 === "encendido" ? "fill " + (_0x4c67 + 10) + " " + (_0x2d11de + 5) + " " + (_0x22feeb + 10) + " " + (_0x4c67 - 10) + " " + _0x2d11de + " " + (_0x22feeb - 10) + " f:puerta_garaje_z replace f:puerta_garaje_z_cierre" : "fill " + (_0x4c67 + 10) + " " + (_0x2d11de + 5) + " " + (_0x22feeb + 10) + " " + (_0x4c67 - 10) + " " + _0x2d11de + " " + (_0x22feeb - 10) + " f:puerta_garaje_z_cierre replace f:puerta_garaje_z";
+      await _0x5abb2e.runCommandAsync(_0x4e0670);
+    } catch (_0x5e89b0) {
+      world.sendMessage("Error: " + _0x5e89b0);
+    }
+  }
+}
+function _0x2a5bf9(_0xeb8d6a, _0x32c070, _0x146d3c, _0x56588a, _0x511022) {
+  return _0x1607(_0x56588a - 0x3c9, _0xeb8d6a);
+}
+export default GarajeLeverComponent;

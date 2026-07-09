@@ -1,0 +1,71 @@
+{
+	"resource_pack_name": "Props_And_Furnitures_Addon_Resource_Pack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"book": {
+		  "textures": "textures/items/book"
+		},
+		"garage_door": {
+		  "textures": "textures/items/pafa_garage_door"
+		},
+		"window_shutter": {
+		  "textures": "textures/items/shutter_window"
+		},
+		"freezer_chest": {
+			"textures": [
+				"textures/items/freezer_chest"
+			]
+		},
+		"electric_fan": {
+			"textures": [
+				"textures/items/electric_fan"
+			]
+		},
+		"crate": {
+			"textures": "textures/items/crate"
+		},
+		"remover": {
+			"textures": "textures/items/remover"
+		},
+		"pafa_inflatable_ring": {
+			"textures": [
+				"textures/items/pafa_inflatable_ring"
+			]
+		},
+		"cabinet_4": {
+		  "textures": [
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate",
+		    "textures/items/crate"
+		  ]
+		},
+		"sliding_door": {
+		  "textures": [
+		    "textures/items/crate"
+		  ]
+		},
+		"pafa_bench1": {
+		  "textures": [
+		    "textures/items/crate"
+		  ]
+		},
+		"water_dispenser": {
+		  "textures": [
+		    "textures/items/crate"
+		  ]
+		}
+	}
+}

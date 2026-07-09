@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pafa:christmas_lantern_red",
+			"materials": {
+				"default": "witch"
+			},
+			"textures": {
+				"default": "textures/entity/christmas_lantern/christmas_lantern_red"
+			},
+			"geometry": {
+				"default": "geometry.christmas_lantern"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#A43F3F",
+				"overlay_color": "#31CB5A"
+			}
+		}
+	}
+}

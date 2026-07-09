@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pafa:furni_remover_shapeless"
+		},
+		"tags":[
+			"crafting_table"
+		],
+		"pattern": [
+			" #",
+			"# #",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "pafa:furni_remover",
+				"count": 1
+			}
+		]
+	}
+}

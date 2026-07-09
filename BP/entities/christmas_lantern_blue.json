@@ -1,0 +1,80 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "pafa:christmas_lantern_blue",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "events": {
+            "minecraft:entity_spawned": {},
+            "pafa:furnit_killed": {
+                "add": {
+                    "component_groups": [
+                        "pafa:death_bch"
+                    ]
+                },
+                "queue_command": {
+                    "command": [
+                        "/give @s pafa:christmas_lantern_blue_spawn_egg 1 0"
+                    ]
+                }
+            }
+        },
+        "component_groups": {
+            "pafa:death_bch": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    }
+                ]
+            },
+            "minecraft:persistent": {},
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:is_stackable": {},
+            "minecraft:health": {
+                "value": 4
+            },
+            "minecraft:collision_box": {
+                "height": 3,
+                "width": 2
+            },
+            "minecraft:movement": {
+                "value": 0.01
+            },
+            "minecraft:physics": {}
+        }
+    }
+}

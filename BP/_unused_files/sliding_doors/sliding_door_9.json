@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "pafa:sliding_door_9"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+		"result": [
+			{
+				"item": "pafa:sliding_door_9_close",
+				"count": 1
+			}
+		]
+	}
+}

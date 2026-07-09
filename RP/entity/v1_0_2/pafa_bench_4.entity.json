@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pafa:bench_4",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/bench1/pafa_bench4"
+      },
+      "geometry": {
+        "default": "geometry.pafa_bench1"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "pafa_bench1",
+        "texture_index": 0
+      }
+    }
+  }
+}

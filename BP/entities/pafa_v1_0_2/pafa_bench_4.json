@@ -1,0 +1,84 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:bench_4",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+            "pafa:death_bch":{
+                "minecraft:instant_despawn": {}
+            }
+		},
+		"components": {
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    }
+                ]
+            },
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers":[
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:rideable": {
+				"family_types": [
+					"player"
+				],
+				"interact_text": "Seat",
+				"seat_count": 2,
+				"seats":[
+					{
+						"position": [1, 0.5, 0]
+					},
+					{
+						"position": [-1, 0.5, 0]
+					}
+				]
+			},
+		  	"minecraft:collision_box": {
+				"width": 2,
+				"height": 1.4
+			},
+			"minecraft:push_through": {
+				"value": 0
+			},
+			"minecraft:health": {
+				"value": 1
+			},
+			"minecraft:physics":{
+				"has_collision": true,
+				"has_gravity": true
+			}
+		},
+		"events": {
+		}
+	}
+}

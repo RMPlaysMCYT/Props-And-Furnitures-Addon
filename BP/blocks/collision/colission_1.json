@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:colission_1"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"ambient_occlusion": false,
+					"face_dimming": false,
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

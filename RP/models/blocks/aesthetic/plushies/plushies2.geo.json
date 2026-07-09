@@ -1,0 +1,37 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.plushies2",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "plushies2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 2, -9], "size": [12, 12, 18], "uv": [0, 0]},
+						{"origin": [-0.5, 14, 7], "size": [1, 1, 1], "uv": [14, 10]},
+						{"origin": [-0.5, 15, 7], "size": [1, 1, 1], "uv": [14, 0]},
+						{"origin": [-0.5, 16, 6], "size": [1, 1, 1], "uv": [12, 8]},
+						{"origin": [-0.5, 16, 5], "size": [1, 1, 1], "uv": [12, 2]},
+						{"origin": [-0.5, 16, 4], "size": [1, 1, 1], "uv": [10, 0]},
+						{"origin": [-0.5, 15, 3], "size": [1, 1, 1], "uv": [6, 6]},
+						{"origin": [-2, 6, -11], "size": [4, 4, 2], "uv": [0, 0]},
+						{"origin": [2, 14, -8], "size": [3, 3, 1], "uv": [0, 14]},
+						{"origin": [-5, 14, -8], "size": [3, 3, 1], "uv": [8, 12]},
+						{"origin": [3, 0, -8], "size": [2, 2, 2], "uv": [10, 4]},
+						{"origin": [-5, 0, -8], "size": [2, 2, 2], "uv": [0, 10]},
+						{"origin": [-5, 0, 6], "size": [2, 2, 2], "uv": [6, 8]},
+						{"origin": [3, 0, 6], "size": [2, 2, 2], "uv": [0, 6]}
+					]
+				}
+			]
+		}
+	]
+}

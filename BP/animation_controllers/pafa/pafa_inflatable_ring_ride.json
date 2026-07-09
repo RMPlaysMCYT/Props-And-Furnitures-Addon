@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.pafa_inflatable_ring.ride": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"riding": "query.has_rider&&!query.is_in_water"
+						},
+						{
+							"riding_land": "query.is_on_ground"
+						}
+					],
+					"on_entry": [
+						"/function pafa_land_ride"
+					]
+				},
+				"riding": {
+					"transitions": [
+						{
+							"default": "query.has_rider&&!query.is_in_water"
+						}
+					],
+					"on_entry": [
+						"/function pafa_land_ride"
+					]
+				},
+				"riding_land": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function pafa_Gland_ride"
+					]
+				}
+			}
+		}
+	}
+}

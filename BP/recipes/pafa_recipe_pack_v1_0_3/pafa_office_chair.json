@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pafa:pafa_office_chair"
+    },
+    "tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate",
+        "count": 1
+			}
+		],
+    "result": [
+      {
+      "item": "pafa:pafa_office_chair",
+      "count": 1
+    }
+    ]
+  }
+}

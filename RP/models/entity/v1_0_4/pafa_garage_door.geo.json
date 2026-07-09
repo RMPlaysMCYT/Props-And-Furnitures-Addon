@@ -1,0 +1,48 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pafa_garage_door",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "garage_door",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-25, 48, -2], "size": [50, 8, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "door0",
+					"parent": "garage_door",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-24, 0, -1], "size": [48, 16, 2], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "door1",
+					"parent": "garage_door",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-24, 16, -1], "size": [48, 16, 2], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "door2",
+					"parent": "garage_door",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-24, 32, -1], "size": [48, 16, 2], "uv": [0, 12]}
+					]
+				}
+			]
+		}
+	]
+}

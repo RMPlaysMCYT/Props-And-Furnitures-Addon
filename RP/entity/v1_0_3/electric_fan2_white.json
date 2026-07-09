@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "pafa:electric_fan2_white",
+            "geometry": {
+                "default": "geometry.electric_fan2"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/electric_fan2/electric_fan2_white"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "setup": "animation.electric_fan2.setup",
+                "swing": "animation.electric_fan2.swing",
+                "loop": "animation.electric_fan.loop",
+                "swing_ac": "controller.animation.electric_fan2.swing_ac"
+            },
+            "scripts": {
+                "animate": [
+                    "swing_ac"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#E6E6E6",
+                "overlay_color": "#525050"
+            }
+        }
+    }
+}

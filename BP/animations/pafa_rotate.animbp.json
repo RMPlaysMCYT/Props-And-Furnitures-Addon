@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.pafa.furniture_rotate": {
+            "timeline": {
+                "0.0": "/tp ~ ~ ~ ~45",
+                "0.05": "/tp ~ ~ ~ ~",
+                "1.0": "@s pafa:rotate_zero"
+            },
+            "animation_length": 2.0
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.pafa_high_chairs",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [0, 0.5, 0]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [7, 7, -7], "size": [1, 2, 12], "uv": [14, 13]},
+            {"origin": [-8, 7, -7], "size": [1, 2, 12], "uv": [0, 11]},
+            {"origin": [-0.5, -5, -6], "size": [1, 17, 2], "pivot": [0, 4, -1], "rotation": [0, 0, -62.5], "uv": [18, 38]},
+            {"origin": [-0.5, -5, 2], "size": [1, 17, 2], "pivot": [0, 4, -1], "rotation": [0, 0, -62.5], "uv": [12, 33]},
+            {"origin": [-0.5, -5, 2], "size": [1, 17, 2], "pivot": [0, 4, -1], "rotation": [0, 0, 62.5], "uv": [6, 33]},
+            {"origin": [-0.5, -5, -6], "size": [1, 17, 2], "pivot": [0, 4, -1], "rotation": [0, 0, 62.5], "uv": [0, 33]},
+            {"origin": [-7, 7.5, -6], "size": [14, 1, 10], "inflate": 0.05, "uv": [0, 0]},
+            {"origin": [-8, 9, 3], "size": [1, 12, 2], "uv": [30, 38]},
+            {"origin": [7, 9, 3], "size": [1, 12, 2], "uv": [24, 38]},
+            {"origin": [7, 14, -7], "size": [1, 1, 10], "uv": [28, 11]},
+            {"origin": [7, 9, -6], "size": [1, 5, 1], "uv": [4, 0]},
+            {"origin": [-8, 9, -6], "size": [1, 5, 1], "uv": [0, 0]},
+            {"origin": [-8, 14, -7], "size": [1, 1, 10], "uv": [20, 27]},
+            {"origin": [-7, 15, 3.5], "size": [14, 5, 1], "inflate": 0.05, "uv": [0, 27]},
+            {"origin": [-4, 2, -10], "size": [8, 2, 4], "uv": [32, 27]}
+          ]
+        }
+      ]
+    }
+  ]
+}

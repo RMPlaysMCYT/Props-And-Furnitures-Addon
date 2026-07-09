@@ -1,0 +1,88 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:seat_classroom",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [
+							0,
+							0,
+							-0.2
+						]
+					}
+				],
+				"family_types": [
+					"player"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 2,
+				"max": 2
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "pafa:place",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0,
+						"height": 0,
+						"pivot": [
+							0,
+							0,
+							0
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"pafa:place": {
+				"add": {
+					"component_groups": [
+						"pafa:place"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"pafa:place": {
+				"minecraft:instant_despawn": {}
+			}
+		}
+	}
+}

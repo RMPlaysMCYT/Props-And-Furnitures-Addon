@@ -1,0 +1,814 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"pafa:table": {
+		"textures": "pafa_table",
+		"sound": "wood"
+	},
+	"pafa:chair_1": {
+		"textures": "pafa_chair",
+		"sound": "wood"
+	},
+	"pafa:oven": {
+		"textures": "pafa_oven",
+		"sound": "stone"
+	},
+	"pafa:cabinet": {
+		"textures": "pafa_cabinet",
+		"sound": "stone"
+	},
+	"pafa:chair_2": {
+		"textures": "pafa_chair_2",
+		"sound": "wood"
+	},
+	"pafa:chair_3": {
+		"textures": "pafa_chair_3",
+		"sound": "wood"
+	},
+	"pafa:chair_4": {
+		"textures": "pafa_chair_4",
+		"sound": "wood"
+	},
+	"pafa:lamp_1": {
+		"textures": "pafa_lamp_1",
+		"sound": "wood"
+	},
+	"pafa:lamp_2": {
+		"textures": "pafa_lamp_2",
+		"sound": "wood"
+	},
+	"pafa:grocery_stand": {
+		"textures": "pafa_grocery_stand"
+	},
+	"pafa:cabinet_2": {
+		"textures": "pafa_cabinet_2"
+	},
+	"pafa:television_0": {
+		"textures": "pafa_television_0",
+		"sound": "wood"
+	},
+	"pafa:classroom_chair_1": {
+		"textures": "pafa_classroom_chair_1",
+		"sound": "wood"
+	},
+	"pafa:chair_1_black": {
+		"textures": "pafa_chair_0",
+		"sound": "wood"
+	},
+	"pafa:chair_1_white": {
+		"textures": "pafa_chair_1",
+		"sound": "wood"
+	},
+	"pafa:chair_1_blue": {
+		"textures": "pafa_chair_1_blue",
+		"sound": "wood"
+	},
+	"pafa:chair_1_brown": {
+		"textures": "pafa_chair_1_brown",
+		"sound": "wood"
+	},
+	"pafa:chair_1_cyan": {
+		"textures": "pafa_chair_1_cyan",
+		"sound": "wood"
+	},
+	"pafa:chair_1_gray": {
+		"textures": "pafa_chair_1_gray",
+		"sound": "wood"
+	},
+	"pafa:chair_1_green": {
+		"textures": "pafa_chair_1_green",
+		"sound": "wood"
+	},
+	"pafa:chair_1_light_blue": {
+		"textures": "pafa_chair_1_light_blue",
+		"sound": "wood"
+	},
+	"pafa:chair_1_lime": {
+		"textures": "pafa_chair_1_lime",
+		"sound": "wood"
+	},
+	"pafa:chair_1_magenta": {
+		"textures": "pafa_chair_1_magenta",
+		"sound": "wood"
+	},
+	"pafa:chair_1_orange": {
+		"textures": "pafa_chair_1_orange",
+		"sound": "wood"
+	},
+	"pafa:chair_1_pink": {
+		"textures": "pafa_chair_1_pink",
+		"sound": "wood"
+	},
+	"pafa:chair_1_purple": {
+		"textures": "pafa_chair_1_purple",
+		"sound": "wood"
+	},
+	"pafa:chair_1_red": {
+		"textures": "pafa_chair_1_red",
+		"sound": "wood"
+	},
+	"pafa:chair_1_silver": {
+		"textures": "pafa_chair_1_silver",
+		"sound": "wood"
+	},
+	"pafa:chair_1_yellow": {
+		"textures": "pafa_chair_1_yellow",
+		"sound": "wood"
+	},
+	"pafa:chair_2_black": {
+		"textures": "pafa_chair_2_black",
+		"sound": "wood"
+	},
+	"pafa:chair_2_white": {
+		"textures": "pafa_chair_2_white",
+		"sound": "wood"
+	},
+	"pafa:chair_2_blue": {
+		"textures": "pafa_chair_2_blue",
+		"sound": "wood"
+	},
+	"pafa:chair_2_brown": {
+		"textures": "pafa_chair_2_brown",
+		"sound": "wood"
+	},
+	"pafa:chair_2_cyan": {
+		"textures": "pafa_chair_2_cyan",
+		"sound": "wood"
+	},
+	"pafa:chair_2_gray": {
+		"textures": "pafa_chair_2_gray",
+		"sound": "wood"
+	},
+	"pafa:chair_2_green": {
+		"textures": "pafa_chair_2_green",
+		"sound": "wood"
+	},
+	"pafa:chair_2_light_blue": {
+		"textures": "pafa_chair_2_light_blue",
+		"sound": "wood"
+	},
+	"pafa:chair_2_lime": {
+		"textures": "pafa_chair_2_lime",
+		"sound": "wood"
+	},
+	"pafa:chair_2_magenta": {
+		"textures": "pafa_chair_2_magenta",
+		"sound": "wood"
+	},
+	"pafa:chair_2_orange": {
+		"textures": "pafa_chair_2_orange",
+		"sound": "wood"
+	},
+	"pafa:chair_2_pink": {
+		"textures": "pafa_chair_2_pink",
+		"sound": "wood"
+	},
+	"pafa:chair_2_purple": {
+		"textures": "pafa_chair_2_purple",
+		"sound": "wood"
+	},
+	"pafa:chair_2_red": {
+		"textures": "pafa_chair_2_red",
+		"sound": "wood"
+	},
+	"pafa:chair_2_silver": {
+		"textures": "pafa_chair_2_silver",
+		"sound": "wood"
+	},
+	"pafa:chair_2_yellow": {
+		"textures": "pafa_chair_2_yellow",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_black": {
+		"textures": "pafa_cabinet_3_black",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_white": {
+		"textures": "pafa_cabinet_3_white",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_blue": {
+		"textures": "pafa_cabinet_3_blue",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_brown": {
+		"textures": "pafa_cabinet_3_brown",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_cyan": {
+		"textures": "pafa_cabinet_3_cyan",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_gray": {
+		"textures": "pafa_cabinet_3_gray",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_green": {
+		"textures": "pafa_cabinet_3_green",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_light_blue": {
+		"textures": "pafa_cabinet_3_light_blue",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_lime": {
+		"textures": "pafa_cabinet_3_lime",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_magenta": {
+		"textures": "pafa_cabinet_3_magenta",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_orange": {
+		"textures": "pafa_cabinet_3_orange",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_pink": {
+		"textures": "pafa_cabinet_3_pink",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_purple": {
+		"textures": "pafa_cabinet_3_purple",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_red": {
+		"textures": "pafa_cabinet_3_red",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_silver": {
+		"textures": "pafa_cabinet_3_silver",
+		"sound": "wood"
+	},
+	"pafa:cabinet_3_yellow": {
+		"textures": "pafa_cabinet_3_yellow",
+		"sound": "wood"
+	},
+	"pafa:television_1": {
+		"textures": "pafa_television_1",
+		"sound": "wood"
+	},
+	"pafa:sink_1": {
+		"textures": "pafa_sink_1"
+	},
+	"pafa:drawer": {
+		"textures": "pafa_drawer",
+		"sound": "wood"
+	},
+	"pafa:drawer_2": {
+		"textures": "pafa_drawer_2"
+	},
+	"pafa:stall": {
+		"textures": "pafa_stall"
+	},
+	"pafa:lamp_3": {
+		"textures": "pafa_lamp_3"
+	},
+	"pafa:large_table_1": {
+		"textures": "pafa_large_table_1",
+		"sound": "wood"
+	},
+	"pafa:stall2": {
+		"textures": "pafa_stall2"
+	},
+	"pafa:glass_window_black": {
+		"textures": "pafa_glass_window_black",
+		"sound": "glass"
+	},
+	"pafa:glass_window_white": {
+		"textures": "pafa_glass_window_white",
+		"sound": "glass"
+	},
+	"pafa:glass_window_orange": {
+		"textures": "pafa_glass_window_orange",
+		"sound": "glass"
+	},
+	"pafa:glass_window_magenta": {
+		"textures": "pafa_glass_window_magenta",
+		"sound": "glass"
+	},
+	"pafa:glass_window_cyan": {
+		"textures": "pafa_glass_window_cyan",
+		"sound": "glass"
+	},
+	"pafa:glass_window_brown": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_brown"
+	},
+	"pafa:glass_window_gray": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_gray"
+	},
+	"pafa:glass_window_green": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_green"
+	},
+	"pafa:glass_window_lime": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_lime"
+	},
+	"pafa:glass_window_light_blue": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_light_blue"
+	},
+	"pafa:glass_window_pink": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_pink"
+	},
+	"pafa:glass_window_purple": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_purple"
+	},
+	"pafa:glass_window_red": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_red"
+	},
+	"pafa:glass_window_silver": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_silver"
+	},
+	"pafa:glass_window_blue": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_blue"
+	},
+	"pafa:glass_window_yellow": {
+		"sound": "glass",
+		"textures": "pafa_glass_window_yellow"
+	},
+	"pafa:microphone": {
+		"textures": "pafa_microphone"
+	},
+	"pafa:printer_1": {
+		"textures": "pafa_printer_1",
+		"sound": "stone"
+	},
+	"pafa:printer_2": {
+		"textures": "pafa_printer_2",
+		"sound": "stone"
+	},
+	"pafa:computer_1": {
+		"textures": "pafa_computer_1_0"
+	},
+	"pafa:large_table_2": {
+		"textures": "pafa_large_table_2"
+	},
+	"pafa:cpu_1": {
+		"textures": "pafa_pc_1"
+	},
+	"pafa:sofa_black": {
+		"textures": "pafa_sofa_1",
+		"sound": "wood"
+	},
+	"pafa:sofa_white": {
+		"textures": "pafa_sofa_1_white",
+		"sound": "wood"
+	},
+	"pafa:sofa_blue": {
+		"textures": "pafa_sofa_1_blue",
+		"sound": "wood"
+	},
+	"pafa:sofa_brown": {
+		"textures": "pafa_sofa_1_brown",
+		"sound": "wood"
+	},
+	"pafa:sofa_cyan": {
+		"textures": "pafa_sofa_1_cyan",
+		"sound": "wood"
+	},
+	"pafa:sofa_gray": {
+		"textures": "pafa_sofa_1_gray",
+		"sound": "wood"
+	},
+	"pafa:sofa_green": {
+		"textures": "pafa_sofa_1_green",
+		"sound": "wood"
+	},
+	"pafa:sofa_light_blue": {
+		"textures": "pafa_sofa_1_light_blue",
+		"sound": "wood"
+	},
+	"pafa:sofa_lime": {
+		"textures": "pafa_sofa_1_lime",
+		"sound": "wood"
+	},
+	"pafa:sofa_magenta": {
+		"textures": "pafa_sofa_1_magenta",
+		"sound": "wood"
+	},
+	"pafa:sofa_orange": {
+		"textures": "pafa_sofa_1_orange",
+		"sound": "wood"
+	},
+	"pafa:sofa_pink": {
+		"textures": "pafa_sofa_1_pink",
+		"sound": "wood"
+	},
+	"pafa:sofa_purple": {
+		"textures": "pafa_sofa_1_purple",
+		"sound": "wood"
+	},
+	"pafa:sofa_red": {
+		"textures": "pafa_sofa_1_red",
+		"sound": "wood"
+	},
+	"pafa:sofa_silver": {
+		"textures": "pafa_sofa_1_silver",
+		"sound": "wood"
+	},
+	"pafa:sofa_yellow": {
+		"textures": "pafa_sofa_1_yellow",
+		"sound": "wood"
+	},
+	"pafa:pafa_table_v2_oak": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_acacia": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_birch": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_crimson": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_dark_oak": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_jungle": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_spruce": {
+		"sound": "stone"
+	},
+	"pafa:pafa_table_v2_warped": {
+		"sound": "stone"
+	},
+	"pafa:block_syta": {
+		"textures": "pafa_block_syta",
+		"isotropic": true,
+		"sound": "wood"
+	},
+	"pafa:block_pokeball": {
+		"textures": "pafa_block_pokeball",
+		"isotropic": true,
+		"sound": "wood"
+	},
+	"pafa:shoe_rack": {
+		"textures": "pafa_shoe_rack",
+		"sound": "wood"
+	},
+	"pafa:pafa_monobloc_chair": {
+		"textures": "pafa_pafa_monobloc_chair",
+		"sound": "wood"
+	},
+	"pafa:pafa_monobloc_chair2": {
+		"textures": "pafa_pafa_monobloc_chair2",
+		"sound": "wood"
+	},
+	"pafa:barrel1": {
+		"textures": "pafa_barrel1",
+		"sound": "wood"
+	},
+	"pafa:pafa_monobloc_chair3": {
+		"textures": "pafa_pafa_monobloc_chair3",
+		"sound": "wood"
+	},
+	"pafa:barrel2": {
+		"textures": "pafa_barrel2",
+		"sound": "wood"
+	},
+	"pafa:portable_speaker": {
+		"textures": "pafa_portable_speaker",
+		"sound": "wood"
+	},
+	"pafa:piso_wifi_vending_machine": {
+		"textures": "pafa_piso_wifi_vending_machine",
+		"sound": "wood"
+	},
+	"pafa:flowerpot1": {
+		"textures": "pafa_flowerpot1",
+		"sound": "wood"
+	},
+	"pafa:barrel4": {
+		"textures": "pafa_barrel4",
+		"sound": "wood"
+	},
+	"pafa:barrel3": {
+		"textures": "pafa_barrel3",
+		"sound": "wood"
+	},
+	"pafa:flowerpot2": {
+		"textures": "pafa_flowerpot2",
+		"sound": "wood"
+	},
+	"pafa:comfy_table1": {
+		"textures": "pafa_comfy_table1",
+		"sound": "wood"
+	},
+	"pafa:comfy_table2": {
+		"textures": "pafa_comfy_table2",
+		"sound": "wood"
+	},
+	"pafa:tablet_1": {
+		"textures": "pafa_tablet_1",
+		"sound": "stone"
+	},
+	"pafa:pc_1": {
+		"textures": "pafa_pc_1",
+		"sound": "stone"
+	},
+	"pafa:gift": {
+		"sound": "stone"
+	},
+	"pafa:gift_blue": {
+		"sound": "stone"
+	},
+	"pafa:gift_green": {
+		"sound": "stone"
+	},
+	"pafa:gift_pink": {
+		"sound": "stone"
+	},
+	"pafa:plushies1": {
+		"textures": "pafa_plushies1",
+		"sound": "gravel"
+	},
+	"pafa:plushies2": {
+		"textures": "pafa_plushies2",
+		"sound": "wood"
+	},
+	"pafa:plushies3": {
+		"textures": "pafa_plushies3",
+		"sound": "wood"
+	},
+	"pafa:ps1_console": {
+		"textures": "pafa_ps1_console",
+		"sound": "wood"
+	},
+	"pafa:ps2_console": {
+		"textures": "pafa_ps2_console",
+		"sound": "wood"
+	},
+	"pafa:ps3_console": {
+		"textures": "pafa_ps3_console",
+		"sound": "wood"
+	},
+	"pafa:ps4_pro_console": {
+		"textures": "pafa_ps4_pro_console",
+		"sound": "wood"
+	},
+	"pafa:ps4_slim_console": {
+		"textures": "pafa_ps4_slim_console",
+		"sound": "wood"
+	},
+	"pafa:crate_block": {
+		"textures": "crate_block",
+		"sound": "wood"
+	},
+	"pafa:fridge2": {
+		"textures": "fridge2",
+		"sound": "wood"
+	},
+	"pafa:n_nes": {
+		"textures": "n_nes",
+		"sound": "wood"
+	},
+	"pafa:n_snes": {
+		"textures": "n_snes",
+		"sound": "wood"
+	},
+	"pafa:cabriole": {
+		"textures": "cabriole",
+		"sound": "wood"
+	},
+	"pafa:chesterfield_chair": {
+		"textures": "chesterfield",
+		"sound": "wood"
+	},
+	"pafa:lawson": {
+		"textures": "lawson",
+		"sound": "wood"
+	},
+	"pafa:mid_century": {
+		"textures": "mid_century",
+		"sound": "wood"
+	},
+	"pafa:settee": {
+		"textures": "settee",
+		"sound": "wood"
+	},
+	"pafa:dressing_table": {
+		"textures": "settee",
+		"sound": "wood"
+	},
+	"pafa:wall_frame_1A": {
+		"textures": "wall_frame_1A",
+		"sound": "wood"
+	},
+	"pafa:wall_frame_1B": {
+		"textures": "wall_frame_1B",
+		"sound": "wood"
+	},
+	"pafa:wall_frame_1C": {
+		"textures": "wall_frame_1C",
+		"sound": "wood"
+	},
+	"pafa:wall_frame_2A": {
+		"textures": "wall_frame_2A",
+		"sound": "wood"
+	},
+	"pafa:lamp_tall_1": {
+		"textures": "lamp_tall_1",
+		"sound": "wood"
+	},
+	"pafa:lamp_tall_2": {
+		"textures": "lamp_tall_2",
+		"sound": "wood"
+	},
+	"pafa:lamp_tall_3": {
+		"textures": "lamp_tall_3",
+		"sound": "wood"
+	},
+	"pafa:wardrobe": {
+		"textures": "wardrobe",
+		"sound": "wood"
+	},
+	"pafa:coffee_table1": {
+		"textures": "coffee_table1",
+		"sound": "wood"
+	},
+	"pafa:coffee_table2": {
+		"textures": "coffee_table2",
+		"sound": "wood"
+	},
+	"pafa:coffee_table3": {
+		"textures": "coffee_table3",
+		"sound": "wood"
+	},
+	"pafa:television_stand1": {
+		"textures": "television_stand1",
+		"sound": "wood"
+	},
+	"pafa:television_stand2": {
+		"textures": "television_stand2",
+		"sound": "wood"
+	},
+	"pafa:block_boracay": {
+		"isotropic": {
+			"up": true,
+			"down": true
+		},
+		"textures": {
+			"up": "pafa_boracay_up",
+			"down": "pafa_boracay_down",
+			"side": "pafa_boracay"
+		}
+	},
+	"pafa:block_boracay2": {
+		"textures": "pafa_boracay_up",
+		"sound": "wood"
+	},
+	"pafa:wall1": {
+		"isotropic": {
+			"up": true,
+			"down": true
+		},
+		"textures": {
+			"side": "wall1A",
+			"up": "wall1B",
+			"down": "wall1C"
+		},
+		"sound": "wood"
+	},
+	"pafa:wall2": {
+		"isotropic": {
+			"up": true,
+			"down": true
+		},
+		"textures": {
+			"side": "wall2A",
+			"up": "wall2B",
+			"down": "wall2C"
+		},
+		"sound": "wood"
+	},
+	"pafa:wall3": {
+		"isotropic": {
+			"up": true,
+			"down": true
+		},
+		"textures": {
+			"side": "wall3A",
+			"up": "wall3B",
+			"down": "wall3C"
+		},
+		"sound": "wood"
+	},
+	"pafa:wall1B": {
+		"textures": "wall1B",
+		"sound": "wood"
+	},
+	"pafa:wall2B": {
+		"textures": "wall2B",
+		"sound": "wood"
+	},
+	"pafa:wall3B": {
+		"textures": "wall3B",
+		"sound": "wood"
+	},
+	"pafa:pafa_shutter_window1": {
+		"textures": "pafa_shutter_window1_white",
+		"sound": "wood"
+	},
+	"pafa:pafa_shutter_window1Up": {
+		"textures": "pafa_shutter_window1_white",
+		"sound": "wood"
+	},
+
+	"pafa:high_chair_black": 		{"textures": "pafa_high_chair_black","sound": "wood"},
+	"pafa:high_chair_blue": 		{"textures": "pafa_high_chair_blue","sound": "wood"},
+	"pafa:high_chair_brown": 		{"textures": "pafa_high_chair_brown","sound": "wood"},
+	"pafa:high_chair_cyan": 		{"textures": "pafa_high_chair_cyan","sound": "wood"},
+	"pafa:high_chair_gray": 		{"textures": "pafa_high_chair_gray","sound": "wood"},
+	"pafa:high_chair_green": 		{"textures": "pafa_high_chair_green","sound": "wood"},
+	"pafa:high_chair_light_blue": 	{"textures": "pafa_high_chair_light_blue","sound": "wood"},
+	"pafa:high_chair_light_gray": 	{"textures": "pafa_high_chair_light_gray","sound": "wood"},
+	"pafa:high_chair_lime": 		{"textures": "pafa_high_chair_lime","sound": "wood"},
+	"pafa:high_chair_magenta": 		{"textures": "pafa_high_chair_magenta","sound": "wood"},
+	"pafa:high_chair_orange": 		{"textures": "pafa_high_chair_orange","sound": "wood"},
+	"pafa:high_chair_pink": 		{"textures": "pafa_high_chair_pink","sound": "wood"},
+	"pafa:high_chair_purple": 		{"textures": "pafa_high_chair_purple","sound": "wood"},
+	"pafa:high_chair_red": 			{"textures": "pafa_high_chair_red","sound": "wood"},
+	"pafa:high_chair_white": 		{"textures": "pafa_high_chair_white","sound": "wood"},
+	"pafa:high_chair_yellow": 		{"textures": "pafa_high_chair_yellow","sound": "wood"},
+	"pafa:office_chair_black": 		{"textures": "pafa_office_chair_black","sound": "wood"},
+	"pafa:office_chair_blue": 		{"textures": "pafa_office_chair_blue","sound": "wood"},
+	"pafa:office_chair_brown": 		{"textures": "pafa_office_chair_brown","sound": "wood"},
+	"pafa:office_chair_cyan": 		{"textures": "pafa_office_chair_cyan","sound": "wood"},
+	"pafa:office_chair_gray": 		{"textures": "pafa_office_chair_gray","sound": "wood"},
+	"pafa:office_chair_green": 		{"textures": "pafa_office_chair_green","sound": "wood"},
+	"pafa:office_chair_light_blue": {"textures": "pafa_office_chair_light_blue","sound": "wood"},
+	"pafa:office_chair_light_gray": {"textures": "pafa_office_chair_light_gray","sound": "wood"},
+	"pafa:office_chair_lime": 		{"textures": "pafa_office_chair_lime","sound": "wood"},
+	"pafa:office_chair_magenta": 	{"textures": "pafa_office_chair_magenta","sound": "wood"},
+	"pafa:office_chair_orange": 	{"textures": "pafa_office_chair_orange","sound": "wood"},
+	"pafa:office_chair_pink": 		{"textures": "pafa_office_chair_pink","sound": "wood"},
+	"pafa:office_chair_purple": 	{"textures": "pafa_office_chair_purple","sound": "wood"},
+	"pafa:office_chair_red": 		{"textures": "pafa_office_chair_red","sound": "wood"},
+	"pafa:office_chair_white": 		{"textures": "pafa_office_chair_white","sound": "wood"},
+	"pafa:office_chair_yellow": 	{"textures": "pafa_office_chair_yellow","sound": "wood"},
+	"pafa:ottoman_chair_black": 	{"textures": "pafa_ottoman_chair_black","sound": "wood"},
+	"pafa:ottoman_chair_blue": 		{"textures": "pafa_ottoman_chair_blue","sound": "wood"},
+	"pafa:ottoman_chair_brown": 	{"textures": "pafa_ottoman_chair_brown","sound": "wood"},
+	"pafa:ottoman_chair_cyan": 		{"textures": "pafa_ottoman_chair_cyan","sound": "wood"},
+	"pafa:ottoman_chair_gray": 		{"textures": "pafa_ottoman_chair_gray","sound": "wood"},
+	"pafa:ottoman_chair_green": 	{"textures": "pafa_ottoman_chair_green","sound": "wood"},
+	"pafa:ottoman_chair_light_blue":{"textures": "pafa_ottoman_chair_light_blue","sound": "wood"},
+	"pafa:ottoman_chair_light_gray":{"textures": "pafa_ottoman_chair_light_gray","sound": "wood"},
+	"pafa:ottoman_chair_lime": 		{"textures": "pafa_ottoman_chair_lime","sound": "wood"},
+	"pafa:ottoman_chair_magenta": 	{"textures": "pafa_ottoman_chair_magenta","sound": "wood"},
+	"pafa:ottoman_chair_orange": 	{"textures": "pafa_ottoman_chair_orange","sound": "wood"},
+	"pafa:ottoman_chair_pink": 		{"textures": "pafa_ottoman_chair_pink","sound": "wood"},
+	"pafa:ottoman_chair_purple": 	{"textures": "pafa_ottoman_chair_purple","sound": "wood"},
+	"pafa:ottoman_chair_red": 		{"textures": "pafa_ottoman_chair_red","sound": "wood"},
+	"pafa:ottoman_chair_white": 	{"textures": "pafa_ottoman_chair_white","sound": "wood"},
+	"pafa:ottoman_chair_yellow": 	{"textures": "pafa_ottoman_chair_yellow","sound": "wood"},
+	"pafa:stool_black": 			{"textures": "pafa_step_stool_black","sound": "wood"},
+	"pafa:stool_blue": 				{"textures": "pafa_step_stool_blue","sound": "wood"},
+	"pafa:stool_brown": 			{"textures": "pafa_step_stool_brown","sound": "wood"},
+	"pafa:stool_cyan": 				{"textures": "pafa_step_stool_cyan","sound": "wood"},
+	"pafa:stool_gray": 				{"textures": "pafa_step_stool_gray","sound": "wood"},
+	"pafa:stool_green": 			{"textures": "pafa_step_stool_green","sound": "wood"},
+	"pafa:stool_light_blue": 		{"textures": "pafa_step_stool_light_blue","sound": "wood"},
+	"pafa:stool_light_gray": 		{"textures": "pafa_step_stool_light_gray","sound": "wood"},
+	"pafa:stool_lime": 				{"textures": "pafa_step_stool_lime","sound": "wood"},
+	"pafa:stool_magenta": 			{"textures": "pafa_step_stool_magenta","sound": "wood"},
+	"pafa:stool_orange": 			{"textures": "pafa_step_stool_orange","sound": "wood"},
+	"pafa:stool_pink": 				{"textures": "pafa_step_stool_pink","sound": "wood"},
+	"pafa:stool_purple": 			{"textures": "pafa_step_stool_purple","sound": "wood"},
+	"pafa:stool_red": 				{"textures": "pafa_step_stool_red","sound": "wood"},
+	"pafa:stool_white": 			{"textures": "pafa_step_stool_white","sound": "wood"},
+	"pafa:stool_yellow": 			{"textures": "pafa_step_stool_yellow","sound": "wood"},
+	"pafa:stool2_black": 			{"textures": "pafa_stool2_black","sound": "wood"},
+	"pafa:stool2_blue": 			{"textures": "pafa_stool2_blue","sound": "wood"},
+	"pafa:stool2_brown": 			{"textures": "pafa_stool2_brown","sound": "wood"},
+	"pafa:stool2_cyan": 			{"textures": "pafa_stool2_cyan","sound": "wood"},
+	"pafa:stool2_gray": 			{"textures": "pafa_stool2_gray","sound": "wood"},
+	"pafa:stool2_green": 			{"textures": "pafa_stool2_green","sound": "wood"},
+	"pafa:stool2_light_blue": 		{"textures": "pafa_stool2_light_blue","sound": "wood"},
+	"pafa:stool2_light_gray": 		{"textures": "pafa_stool2_light_gray","sound": "wood"},
+	"pafa:stool2_lime": 			{"textures": "pafa_stool2_lime","sound": "wood"},
+	"pafa:stool2_magenta": 			{"textures": "pafa_stool2_magenta","sound": "wood"},
+	"pafa:stool2_orange": 			{"textures": "pafa_stool2_orange","sound": "wood"},
+	"pafa:stool2_pink": 			{"textures": "pafa_stool2_pink","sound": "wood"},
+	"pafa:stool2_purple": 			{"textures": "pafa_stool2_purple","sound": "wood"},
+	"pafa:stool2_red": 				{"textures": "pafa_stool2_red","sound": "wood"},
+	"pafa:stool2_white": 			{"textures": "pafa_stool2_white","sound": "wood"},
+	"pafa:stool2_yellow": 			{"textures": "pafa_stool2_yellow","sound": "wood"},
+
+
+	"pafa:scalloped_fence": 			{"textures": "pafa_scalloped_fence","sound": "wood"},
+	"pafa:orange_barrier": 			{"textures": "pafa_orange_barrier","sound": "wood"}
+}

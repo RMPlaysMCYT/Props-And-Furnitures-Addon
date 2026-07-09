@@ -1,0 +1,43 @@
+	/*
+    Made for PAFA ExpansionSeries
+*/
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.pafa_outdoor.bp.sittable_anchor.remove_on_invalid": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"invalid": "!q.relative_block_has_all_tags(0, 0, 0, 'sittable')"
+						}
+					]
+				},
+				"invalid": {
+					"on_entry": ["@s pafa:sui#ide"]
+				}
+			}
+		},
+		"controller.animation.pafa_outdoor.bp.sittable_anchor.remove_on_exit": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"has_rider": "q.has_rider"
+						}
+					]
+				},
+				"has_rider": {
+					"on_exit": ["@s pafa:sui#ide"],
+					"transitions": [
+						{
+							"default": "!q.has_rider"
+						}
+					]
+				}
+			}
+		}
+	}
+}

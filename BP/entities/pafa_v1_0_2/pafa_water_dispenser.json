@@ -1,0 +1,116 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:water_dispenser",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+            "pafa:death_bch":{
+                "minecraft:instant_despawn": {}
+            }
+		},
+		"components": {
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers":[
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:health": {
+				"value": 20
+			},
+			"minecraft:collision_box": {
+				"width": 0.94,
+				"height": 1.8
+			},
+			"minecraft:physics": {
+				"has_collision": true
+			},
+			"minecraft:push_through": {
+				"value": 0
+			},
+			"minecraft:knockback_resistance": {
+				"value": 100
+			},
+			"minecraft:interact": {
+				"interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    },
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"all_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:glass_bottle"
+											}
+										]
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									}
+								]
+							},
+							"event": "pafa:fillup_water"
+						},
+						"use_item": true,
+						"interact_text": "Get Some Water Here"
+					}
+				]
+			}
+		},
+		"events": {
+			"pafa:fillup_water": {
+				"queue_command": {
+					"command": [
+						"give @p[r=3] potion 1 0"
+					]
+				}
+			},
+			"pafa:furnit_killed":{
+				"add": {
+					"component_groups": [
+						"pafa:death_bch"
+					]
+				},
+				"queue_command": {
+					"command":[
+						"/give @s pafa:water_dispenser_spawn_egg 1 0"
+					]
+				}
+			}
+		}
+	}
+}

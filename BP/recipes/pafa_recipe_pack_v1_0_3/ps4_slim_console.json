@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "pafa:ps4_slim_console"
+        },
+        "tags":[
+            "stonecutter"
+        ],
+        "ingredients": [
+            {
+                "item": "pafa:crate",
+                "count": 1
+            }
+        ],
+        "result":{
+            "item": "pafa:ps4_slim_console",
+            "count": 1
+        }
+    }
+}

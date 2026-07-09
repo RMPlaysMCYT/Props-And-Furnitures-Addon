@@ -1,0 +1,72 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"uuid": "087607d5-ee3f-4ee1-a777-44d58af873f0",
+		"version": [
+			7,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			18,
+			30
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8ec5ab09-0acd-49ff-b19f-10eaf264a094",
+			"version": [
+				7,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"description": "pack.description",
+			"uuid": "dc238fc6-ef25-40be-af5b-b2c9783d757d",
+			"entry": "PropsAndFurnituresAddon/main.js",
+			"version": [
+				7,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+		{
+			"version": [
+				7,
+				0,
+				0
+			],
+			"uuid": "2bfae563-4bd1-4654-bad1-b0da399c0d2e"
+		}
+	],
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	}
+}

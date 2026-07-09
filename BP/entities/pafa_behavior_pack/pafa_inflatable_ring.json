@@ -1,0 +1,291 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pafa:pafa_inflatable_ring",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"scripts": {
+				"animate": [
+					"ride"
+				]
+			},
+			"animations": {
+				"ride": "controller.animation.pafa_inflatable_ring.ride"
+			}
+		},
+		"component_groups": {
+			"pafa:seatable": {
+				"minecraft:rideable": {
+					"controlling_seat": 0,
+					"crouching_skip_interact": true,
+					"family_types": [
+						"player",
+						"villager",
+						"cat",
+						"irongolem"
+					],
+					"interact_text": "action.hint.ride.pafa.inflatable.ring",
+					"seat_count": 1,
+					"seats": [
+						{
+							"position": [
+								0,
+								0,
+								0
+							]
+						}
+					],
+					"pull_in_entities": false,
+					"rider_can_interact": false
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:movement.basic": {},
+				"minecraft:loot": {
+					"table": "loot_tables/pafa_inflatable_ring.json"
+				},
+				"minecraft:buoyant": {
+					"apply_gravity": false,
+					"base_buoyancy": 1,
+					"big_wave_probability": 0.2,
+					"big_wave_speed": 0.2,
+					"liquid_blocks": [
+						"water",
+						"flowing_water"
+					],
+					"simulate_waves": false
+				}
+			},
+			"pafa:red": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"pafa:green": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"pafa:blue": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"pafa:yellow": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"pafa",
+					"inflatable_pool",
+					"rmplaysmcyt",
+					"pool",
+					"furniture"
+				]
+			},
+			"minecraft:health": {
+				"value": 4
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1
+			},
+			"minecraft:can_climb": {},
+			"minecraft:jump.static": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "projectile",
+						"deals_damage": true,
+						"damage_multiplier": 2
+					},
+					{
+						"cause": "suffocation",
+						"deals_damage": true,
+						"damage_multiplier": 2
+					},
+					{
+						"cause": "lightning",
+						"deals_damage": true,
+						"damage_multiplier": 2
+					},
+					{
+						"cause": "piston",
+						"deals_damage": true,
+						"damage_multiplier": 2
+					},
+					{
+						"cause": "anvil",
+						"deals_damage": true,
+						"damage_multiplier": 2
+					},
+					{
+						"cause": "block_explosion",
+						"deals_damage": true,
+						"damage_multiplier": 1
+					},
+					{
+						"cause": "fire",
+						"deals_damage": true,
+						"damage_multiplier": 1
+					},
+					{
+						"cause": "lava",
+						"deals_damage": true,
+						"damage_multiplier": 1
+					}
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"all_of": [
+											{
+												"test": "has_equipment",
+												"subject": "other",
+												"domain": "hand",
+												"value": "minecraft:green_dye"
+											}
+										]
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "player"
+									},
+									{
+										"test": "has_ability",
+										"subject": "other",
+										"value": "instabuild"
+									}
+								]
+							},
+							"event": "pafa:turn_green"
+						},
+						"use_item": true,
+						"interact_text": "Paint on it!"
+					}
+				]
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:physics": {
+				"has_collision": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"add": {
+									"component_groups": [
+										"pafa:seatable"
+									]
+								}
+							}
+						]
+					},
+					{
+						"randomize": [
+							{
+								"add": {
+									"component_groups": [
+										"pafa:red"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"pafa:green"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"pafa:blue"
+									]
+								}
+							},
+							{
+								"add": {
+									"component_groups": [
+										"pafa:yellow"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"pafa:turn_green": {
+				"add": {
+					"component_groups": [
+						"pafa:green"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"pafa:blue",
+						"pafa:red",
+						"pafa:yellow"
+					]
+				}
+			},
+			"pafa:turn_red": {
+				"add": {
+					"component_groups": [
+						"pafa:red"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"pafa:blue",
+						"pafa:green",
+						"pafa:yellow"
+					]
+				}
+			},
+			"pafa:turn_blue": {
+				"add": {
+					"component_groups": [
+						"pafa:blue"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"pafa:green",
+						"pafa:red",
+						"pafa:yellow"
+					]
+				}
+			},
+			"pafa:turn_yellow": {
+				"add": {
+					"component_groups": [
+						"pafa:green"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"pafa:blue",
+						"pafa:green",
+						"pafa:red"
+					]
+				}
+			}
+		}
+	}
+}

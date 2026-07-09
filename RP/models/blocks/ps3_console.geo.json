@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ps3_console",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "ps3_console",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -6], "size": [16, 1, 12], "uv": [0, 0]},
+						{"origin": [-8, 1, -6], "size": [8, 1, 12], "uv": [0, 13]},
+						{"origin": [0, 1, -4], "size": [8, 1, 10], "uv": [28, 13]},
+						{"origin": [0, -0.06625, -3.32023], "size": [8, 1, 2], "pivot": [4, 0.43375, -6.32023], "rotation": [25, 0, 0], "uv": [20, 33]},
+						{"origin": [0, 3.3147, 4.06977], "size": [8, 1, 2], "pivot": [4, 3.8147, 1.06977], "rotation": [-25, 0, 0], "uv": [0, 33]},
+						{"origin": [-8, -0.06625, -3.32023], "size": [8, 1, 2], "pivot": [-4, 0.43375, -6.32023], "rotation": [25, 0, 0], "uv": [20, 33]},
+						{"origin": [-8, 3.3147, 4.06977], "size": [8, 1, 2], "pivot": [-4, 3.8147, 1.06977], "rotation": [-25, 0, 0], "uv": [0, 33]},
+						{"origin": [-8, 2, -2], "size": [16, 1, 6], "uv": [0, 26]}
+					]
+				}
+			]
+		}
+	]
+}

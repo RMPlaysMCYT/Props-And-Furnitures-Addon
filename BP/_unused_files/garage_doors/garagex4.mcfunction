@@ -1,0 +1,1 @@
+fill ~ ~1 ~ ~ ~1 ~ pafa:garage_doorblockx2 [] replace pafa:garage_doorblockx []

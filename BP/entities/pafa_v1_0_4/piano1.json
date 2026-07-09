@@ -1,0 +1,141 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "pafa:pafa_piano1",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "animations": {
+                "furniture_rotate_ctrl": "controller.animation.pafa.furniture_rotate",
+                "furniture_rotate": "animation.pafa.furniture_rotate"
+            },
+            "scripts": {
+                "animate": [
+                    "furniture_rotate_ctrl",
+                    "furniture_rotate"
+                ]
+            }
+        },
+        "component_groups": {
+            "pafa:state0": {
+                "minecraft:is_sheared": {}
+            },
+            "pafa:state1": {
+                "minecraft:is_saddled": {}
+            },
+            "pafa:death_bch":{
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers":[
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Rotate",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "minecraft:stick"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:rotate_btch"
+                        }
+                    },
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    }
+                ]
+            },
+            "minecraft:health": {
+                "value": 4
+            },
+            "minecraft:collision_box": {
+                "height": 2,
+                "width": 2
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:physics": {
+                "has_collision": true
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "pafa:state0"
+                    ]
+                }
+            },
+            "pafa:rotate_btch": {
+                "add": {
+                    "component_groups": [
+                        "pafa:state1"
+                    ]
+                }
+            },
+            "pafa:rotate_zero": {
+                "remove": {
+                    "component_groups": [
+                        "pafa:state1"
+                    ]
+                }
+            },
+            "pafa:furnit_killed":{
+                "add": {
+                    "component_groups": [
+                        "pafa:death_bch"
+                    ]
+                },
+                "queue_command": {
+                    "command":[
+                        "/give @s pafa:pafa_piano1_spawn_egg 1 0"
+                    ]
+                }
+            }
+        }
+    }
+}

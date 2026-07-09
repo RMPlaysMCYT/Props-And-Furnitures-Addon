@@ -1,0 +1,125 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:glass_window_white",
+			"menu_category": {
+				"category": "construction",
+				"is_hidden_in_commands": false
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"y_rotation_offset": 0,
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					]
+				}
+			},
+			"states":{
+				"pafa:windows_open":[
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pafa:windows_open_compo"
+			],
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_glass_window_white",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					0
+				],
+				"size": [
+					16,
+					16,
+					2
+				]
+			},
+			"minecraft:loot": "loot_tables/v_1_0_0/glass_windows/glass_window_white.json",
+			"minecraft:geometry": "geometry.glass_window"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('pafa:windows_open')",
+				"components": {
+					"minecraft:geometry": "geometry.glass_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('pafa:windows_open')",
+				"components": {
+					"minecraft:geometry": "geometry.glass_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('pafa:windows_open')",
+				"components": {
+					"minecraft:geometry": "geometry.glass_window_open"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('pafa:windows_open')",
+				"components": {
+					"minecraft:geometry": "geometry.glass_window_open"
+				}
+			}
+		]
+	}
+}

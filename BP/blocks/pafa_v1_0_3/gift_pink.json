@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pafa:gift_pink",
+			"is_experimental": false,
+			"menu_category": {
+				"category": "items",
+				"group": "items"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.gift",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pafa_gift_pink",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:selection_box":true,
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			}
+		}
+	}
+}

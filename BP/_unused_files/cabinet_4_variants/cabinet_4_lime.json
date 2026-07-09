@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "pafa:cabinet_4_lime"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "pafa:crate"
+			}
+		],
+		"result": [
+			{
+				"item": "pafa:cabinet_4_lime",
+				"count": 1
+			}
+		]
+	}
+}

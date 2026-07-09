@@ -1,0 +1,50 @@
+world.beforeEvents.worldInitialize.subscribe(initEvent => {
+    initEvent.blockTypeRegistry.registerCustomComponent('oos:door', {
+        onRandomTick: e => {
+            const { block } = e;
+            if (block.typeId === "oos:open_hollow_door" || block.typeId === "oos:hollow_door") {
+                block.dimension.spawnParticle("oos:CA", block.location);
+            }
+        },
+
+        /*
+        onTick: e => {
+            const { block } = e;
+            if (block.typeId === "oos:open_hollow_door") {
+                //block.setPermutation(block.permutation.withState("open", false));
+                block.dimension.spawnParticle("oos:CA", block.location);
+            }
+        },*/
+        onPlace: e => {
+            if (e.previousBlock !== undefined && e.previousBlock.type.id === "oos:open_hollow_door" || e.previousBlock.type.id === "oos:hollow_door") {
+                const locationFull = (e.block.location.x + 1) + " " + (e.block.location.y + 1) + " " + (e.block.location.z + 1) + " " + (e.block.location.x - 1) + " " + (e.block.location.y - 1) + " " + (e.block.location.z - 1);
+                if (e.block.type.id === "oos:hollow_door") {
+                    system.run(() => { e.dimension.runCommand("fill " + locationFull + " oos:hollow_door [ ] replace oos:open_hollow_door [ ]"); });
+                }
+                if (e.block.type.id === "oos:open_hollow_door") {
+                    system.run(() => { e.dimension.runCommand("fill " + locationFull + " oos:open_hollow_door [ ] replace oos:hollow_door [ ]"); });
+                }
+            }
+        },
+
+        onPlayerInteract: e => {
+            const { block, player } = e;
+            const blockLocation = block.location;
+            const locationFull = (blockLocation.x + 1) + " " + (blockLocation.y + 1) + " " + (blockLocation.z + 1) + " " + (blockLocation.x - 1) + " " + (blockLocation.y - 1) + " " + (blockLocation.z - 1);
+            if (player === undefined) {
+                return;
+            }
+            else {
+                switch (block.type.id) {
+                    case "oos:hollow_door":
+                        player.runCommand("fill " + locationFull + " oos:open_hollow_door [ ] replace oos:hollow_door [ ]");
+                        break;
+                    case "oos:open_hollow_door":
+                        player.runCommand("fill " + locationFull + " oos:hollow_door [] replace oos:open_hollow_door []");
+                        player.dimension.spawnParticle("oos:CA", block.location);
+                        break;
+                }
+            }
+        }
+    });
+});

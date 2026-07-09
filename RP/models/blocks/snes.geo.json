@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.snes",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "snes",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -6],
+							"size": [10, 2, 12],
+							"uv": {
+								"north": {"uv": [0, 18], "uv_size": [10, 2]},
+								"east": {"uv": [0, 16], "uv_size": [12, 2]},
+								"south": {"uv": [10, 18], "uv_size": [10, 2]},
+								"west": {"uv": [12, 16], "uv_size": [12, 2]},
+								"up": {"uv": [0, 0], "uv_size": [10, 12]},
+								"down": {"uv": [10, 12], "uv_size": [10, -12]}
+							}
+						},
+						{
+							"origin": [-5, 2, 0],
+							"size": [10, 1, 4],
+							"uv": {
+								"north": {"uv": [0, 20], "uv_size": [10, 1]},
+								"east": {"uv": [20, 1], "uv_size": [4, 1]},
+								"south": {"uv": [20, 0], "uv_size": [10, 1]},
+								"west": {"uv": [20, 2], "uv_size": [4, 1]},
+								"up": {"uv": [0, 12], "uv_size": [10, 4]},
+								"down": {"uv": [10, 16], "uv_size": [10, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

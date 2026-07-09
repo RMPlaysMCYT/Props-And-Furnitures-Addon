@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.sliding_door_1.door_mechanic": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"stand_by": "query.mark_variant == 0"
+						},
+						{
+							"open": "query.mark_variant == 1"
+						}
+					]
+				},
+				"stand_by": {
+					"transitions": [
+						{
+							"default": "!query.mark_variant == 1"
+						}
+					],
+					"on_entry": [
+						"/playanimation @e[type=pafa:sliding_door_1,c=1] animation.sliding_door_1.stand_by w 0"
+					]
+				},
+				"open": {
+					"transitions": [
+						{
+							"default": "!query.mark_variant == 0"
+						}
+					],
+					"on_entry": [
+						"/playanimation @e[type=pafa:sliding_door_1,c=1] animation.sliding_door_1.open w 3"
+					]
+				}
+			}
+		}
+	}
+}

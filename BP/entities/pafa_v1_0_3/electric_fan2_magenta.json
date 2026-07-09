@@ -1,0 +1,155 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "pafa:electric_fan2_magenta",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "pafa:death_bch":{
+                "minecraft:instant_despawn": {}
+            },
+            "pafa:no_swing_bitch0": {
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "event": "pafa:noswing_activate"
+                            },
+                            "interact_text": "Turn it up bro!!!"
+                        }
+                    ]
+                },
+                "minecraft:mark_variant": {
+                    "value": 0
+                }
+            },
+            "pafa:no_swing_bitch1": {
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "event": "pafa:swing_activate"
+                            },
+                            "interact_text": "Turn it up bro!!!"
+                        }
+                    ]
+                },
+                "minecraft:mark_variant": {
+                    "value": 1
+                }
+            },
+            "pafa:with_swing_bitch2": {
+                "minecraft:interact": {
+                    "interactions": [
+                        {
+                            "on_interact": {
+                                "event": "pafa:reset"
+                            },
+                            "interact_text": "Turn it up bro!!!"
+                        }
+                    ]
+                },
+                "minecraft:mark_variant": {
+                    "value": 2
+                }
+            }
+        },
+        "components": {
+            "minecraft:interact": {
+                "interactions": [
+                    {
+                        "use_item": false,
+                        "interact_text": "Remove Furniture",
+                        "on_interact": {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "value": "pafa:furni_remover"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "event": "pafa:furnit_killed"
+                        }
+                    }
+                ]
+            },
+			"minecraft:persistent": {},
+			"minecraft:damage_sensor": {
+				"triggers":[
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+            "minecraft:health": {
+                "value": 4
+            },
+            "minecraft:collision_box": {
+                "height": 3,
+                "width": 2
+            },
+            "minecraft:movement": {
+                "value": 0.01
+            },
+            "minecraft:physics": {}
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "pafa:no_swing_bitch0"
+                    ]
+                }
+            },
+            "pafa:noswing_activate": {
+                "add": {
+                    "component_groups": [
+                        "pafa:no_swing_bitch1"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "pafa:no_swing_bitch0"
+                    ]
+                }
+            },
+            "pafa:swing_activate": {
+                "add": {
+                    "component_groups": [
+                        "pafa:with_swing_bitch2"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "pafa:no_swing_bitch1"
+                    ]
+                }
+            },
+            "pafa:reset": {
+                "add": {
+                    "component_groups": [
+                        "pafa:no_swing_bitch0"
+                    ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "pafa:with_swing_bitch2"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pafa:cabinet_4_magenta",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/cabinet_4/cabinet_4_magenta"
+			},
+			"geometry": {
+				"default": "geometry.cabinet_4"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "cabinet_4",
+				"texture_index": 9
+			}
+		}
+	}
+}

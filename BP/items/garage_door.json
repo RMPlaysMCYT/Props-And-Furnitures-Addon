@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "pafa:garage_door",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:entity_placer": {
+                "entity": "pafa:garage_door"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": {
+                "texture": "garage_door"
+            }
+        }
+    }
+}

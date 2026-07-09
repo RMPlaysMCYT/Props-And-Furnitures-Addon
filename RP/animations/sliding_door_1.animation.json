@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sliding_door_1.stand_by": {
+			"loop": true,
+			"bones": {
+				"sliding_door": {
+					"relative_to": {
+						"rotation": "entity"
+					}
+				}
+			}
+		},
+		"animation.sliding_door_1.open": {
+			"animation_length": 5,
+			"bones": {
+				"sliding_door": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [15, 0, 0],
+						"4.3": [15, 0, 0],
+						"5.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

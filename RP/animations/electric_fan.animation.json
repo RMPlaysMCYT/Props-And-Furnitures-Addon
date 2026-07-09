@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.electric_fan.loop": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"propeller": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"4.0": ["-this", "-this", "1440*4"]
+					}
+				}
+			}
+		},
+		"animation.electric_fan.stand_by": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

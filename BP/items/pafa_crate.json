@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "pafa:crate"
+		},
+		"components": {
+			"minecraft:icon": "crate",
+			"minecraft:hand_equipped":true,
+			"minecraft:max_stack_size": 64
+		}
+	}
+}
