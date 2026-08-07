@@ -3,8 +3,6 @@
 	"minecraft:block": {
 		"description": {
 			"identifier": "pafa:block_pokeball",
-			"is_experimental": false,
-			"register_to_creative_menu": true,
 			"menu_category": {
 				"category": "construction",
 				"is_hidden_in_commands": false
