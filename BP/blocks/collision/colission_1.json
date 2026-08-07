@@ -5,13 +5,6 @@
 			"identifier": "pafa:colission_1"
 		},
 		"components": {
-			"minecraft:material_instances": {
-				"*": {
-					"ambient_occlusion": false,
-					"face_dimming": false,
-					"render_method": "alpha_test"
-				}
-			},
 			"minecraft:collision_box": {
 				"origin": [
 					-8,
