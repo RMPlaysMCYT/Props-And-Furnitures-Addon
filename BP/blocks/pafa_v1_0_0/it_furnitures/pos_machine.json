@@ -36,7 +36,7 @@
 					"texture": "pafa_pos_machine",
 					"render_method": "alpha_test"
 				}
-			},
+			}
 		},
 		"permutations": [
 			{
