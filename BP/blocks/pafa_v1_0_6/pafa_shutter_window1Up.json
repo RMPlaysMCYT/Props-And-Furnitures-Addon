@@ -19,7 +19,6 @@
 			}
 		},
 		"components": {
-			"minecraft:loot": "none",
 			"minecraft:custom_components":[
 				"pafa:glass_window_interact_compo"
 			],
