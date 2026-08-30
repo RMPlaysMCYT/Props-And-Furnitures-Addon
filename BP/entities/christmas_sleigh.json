@@ -54,6 +54,9 @@
             "minecraft:movement": {
                 "value": 0.4
             },
+            "minecraft:movement.basic": {
+                "max_turn": 30
+            },
             "minecraft:physics": {}
         }
     }

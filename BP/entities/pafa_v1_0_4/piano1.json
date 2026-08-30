@@ -132,7 +132,7 @@
                 },
                 "queue_command": {
                     "command":[
-                        "/give @s pafa:pafa_piano1_spawn_egg 1 0"
+                        "give @s pafa:pafa_piano1_spawn_egg 1 0"
                     ]
                 }
             }

@@ -42,7 +42,10 @@
 				"minecraft:movement": {
 					"value": 0.1
 				},
-				"minecraft:movement.basic": {},
+				"minecraft:movement.basic": {
+					"max_turn": 30
+				},
+				"minecraft:navigation.generic": {},
 				"minecraft:loot": {
 					"table": "loot_tables/pafa_inflatable_ring.json"
 				},
