@@ -1,2 +1,3 @@
 
 diagnostic.disable.molang.remove=true
+diagnostic.disable.minecraft.commands.tp.syntax=true
