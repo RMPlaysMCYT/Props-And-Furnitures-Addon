@@ -4,19 +4,15 @@
     "description": {
       "identifier": "pafa:pafa_swedish_metamorphic_coffee_table"
     },
-    "tags": [
-      "stonecutter"
-    ],
+    "tags": ["stonecutter"],
     "ingredients": [
       {
         "item": "pafa:crate"
       }
     ],
-    "result": [
-      {
-        "item": "pafa:swedish_metamorphic_coffee_table",
-        "count": 1
-      }
-    ]
+    "result": {
+      "item": "pafa:swedish_metamorphic_coffee_table",
+      "count": 1
+    }
   }
 }
