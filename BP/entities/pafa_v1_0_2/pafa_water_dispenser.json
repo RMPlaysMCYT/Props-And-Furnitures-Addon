@@ -107,7 +107,7 @@
 				},
 				"queue_command": {
 					"command":[
-						"/give @s pafa:water_dispenser_spawn_egg 1 0"
+						"give @s pafa:water_dispenser_spawn_egg 1 0"
 					]
 				}
 			}
