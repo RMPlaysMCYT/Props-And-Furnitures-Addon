@@ -17,7 +17,7 @@
                 },
                 "queue_command": {
                     "command": [
-                        "/give @s pafa:christmas_lantern_blue_spawn_egg 1 0"
+                        "give @s pafa:christmas_lantern_blue_spawn_egg 1 0"
                     ]
                 }
             }
