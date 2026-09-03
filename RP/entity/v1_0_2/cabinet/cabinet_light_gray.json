@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/cabinet_4/cabinet_4_light_gray"
+				"default": "textures/entity/cabinet_4/cabinet_4_silver"
 			},
 			"geometry": {
 				"default": "geometry.cabinet_4"

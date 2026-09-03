@@ -1062,30 +1062,6 @@
                                     "functions": [
                                         {
                                             "function": "set_actor_id",
-                                            "id": "pafa:"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "wants": [
-                                {
-                                    "item": "pafa:crate",
-                                    "functions": [
-                                        {
-                                            "function": "set_count",
-                                            "count": 2
-                                        }
-                                    ]
-                                }
-                            ],
-                            "gives": [
-                                {
-                                    "item": "minecraft:spawn_egg",
-                                    "functions": [
-                                        {
-                                            "function": "set_actor_id",
                                             "id": "pafa:pafa_inflatable_ring"
                                         }
                                     ]
