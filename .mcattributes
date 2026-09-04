@@ -1,3 +1,4 @@
 
 diagnostic.disable.molang.remove=true
 diagnostic.disable.minecraft.commands.tp.syntax=true
+diagnostic.disable.behaviorpack.block.components.material_instance_clash=true
